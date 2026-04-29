@@ -30,12 +30,12 @@ author:
 
   # Academic websites
   academia         :
-  arxiv            : "https://arxiv.org/a/mo_y_1"
+  arxiv            :
   googlescholar    :
   inspire-hep      :
   impactstory      :
   orcid            :
-  semantic         : "https://www.semanticscholar.org/author/YOUR_ID"
+  semantic         :
   ssrn             :
   pubmed           :
   researchgate     :
