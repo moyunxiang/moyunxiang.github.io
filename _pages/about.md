@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Yunxiang Mo &nbsp;莫云翔"
 author_profile: true
 redirect_from:
   - /about/
