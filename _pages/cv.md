@@ -18,7 +18,10 @@ Education
   * **GPA: 4.03 / 4.3**
   * **A+ in every Mathematics and Computer Science course taken** (top 5% in each)
   * Relevant coursework: Algorithms, Statistical Inference, Machine Learning, Linear Algebra, Probability Theory
-  * **Honors**: [S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/) (HKUST Mathematics, 2025) · University's Scholarship Scheme for Continuing Undergraduates (**Top 1%**), 2024 & 2025 · Dean's List Honor (twice; GPA above 3.7), 2024 & 2025
+  * **Honors:**
+    * [S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/) — HKUST Department of Mathematics, 2025. *Honor for top academic performance across all mathematics coursework.*
+    * University's Scholarship Scheme for Continuing Undergraduate Students (**Top 1%**), 2024 & 2025
+    * Dean's List Honor (twice; GPA above 3.7), 2024 & 2025
 
 Research Experience
 ======

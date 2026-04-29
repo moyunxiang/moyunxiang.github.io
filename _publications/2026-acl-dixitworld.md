@@ -7,10 +7,10 @@ excerpt: 'Extended version of the EMNLP 2025 Workshop paper, accepted at ACL 202
 date: 2026-08-01
 venue: 'ACL 2026 (Main Conference)'
 paperurl: 'https://openreview.net/forum?id=ikU0NDfKvO'
-citation: 'Yunxiang Mo*, Tianshi Zheng*, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song. (2026). &quot;DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay.&quot; <i>Proceedings of ACL 2026 (Main Conference)</i>.'
+citation: 'Yunxiang Mo, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song. (2026). &quot;DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay.&quot; <i>Proceedings of ACL 2026 (Main Conference)</i>.'
 ---
 
-**Authors:** <u>Yunxiang Mo</u><sup>\*</sup>, Tianshi Zheng<sup>\*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song. <sup>\*</sup>Equal contribution.
+**Authors:** <u>Yunxiang Mo</u>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
 
 **Venue:** **ACL 2026 — Main Conference**. AC meta-review **9/10 (Strong Accept)**; recommended for oral presentation (decision pending).
 

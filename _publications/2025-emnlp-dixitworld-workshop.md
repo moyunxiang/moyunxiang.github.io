@@ -7,10 +7,10 @@ excerpt: 'EMNLP 2025 Workshop (Spotlight). The original version of DixitWorld; a
 date: 2025-10-11
 venue: 'EMNLP 2025 Workshop (Spotlight)'
 paperurl: 'https://arxiv.org/abs/2510.10117'
-citation: 'Yunxiang Mo*, Tianshi Zheng*, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song. (2025). &quot;DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay.&quot; <i>EMNLP 2025 Workshop (Spotlight)</i>.'
+citation: 'Yunxiang Mo, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song. (2025). &quot;DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay.&quot; <i>EMNLP 2025 Workshop (Spotlight)</i>.'
 ---
 
-**Authors:** <u>Yunxiang Mo</u><sup>\*</sup>, Tianshi Zheng<sup>\*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song. <sup>\*</sup>Equal contribution.
+**Authors:** <u>Yunxiang Mo</u>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
 
 **Venue:** EMNLP 2025 Workshop — **Spotlight**.
 
