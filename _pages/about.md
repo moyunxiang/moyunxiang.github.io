@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year undergraduate at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a triple major in **Computer Science, Mathematics, and Artificial Intelligence**. I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) at the HKUST [KnowComp Group](http://hkust-knowcomp.github.io/).
+I am a second-year undergraduate at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a **double major in Computer Science and Mathematics**, with an **Extended Major in Artificial Intelligence**. I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) at the HKUST [KnowComp Group](http://hkust-knowcomp.github.io/).
 
 My research interests center on **natural language processing**, with a focus on the **reasoning** and **evaluation** of large language models and vision-language models. I am especially interested in *abductive* and *multimodal* reasoning — how models form, defend, and revise hypotheses under ambiguity.
 
@@ -20,7 +20,6 @@ News
 
 Publications
 ======
-<sup>*</sup> denotes equal contribution. Full list on the [Publications](/publications/) page.
 
 **Conference Papers**
 
@@ -36,6 +35,8 @@ Publications
   <u>Yunxiang Mo</u><sup>*</sup>, Tianshi Zheng<sup>*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
   *EMNLP 2025 Workshop (Spotlight).*
   \[[arXiv](https://arxiv.org/abs/2510.10117)\] · \[[details](/publication/2025-emnlp-dixitworld-workshop)\]
+
+<sup>\*</sup> <small>equal contribution</small>
 
 Contact
 ======
