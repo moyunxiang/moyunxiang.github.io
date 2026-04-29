@@ -1,15 +1,16 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Education & Experience"
+permalink: /education/
 author_profile: true
 redirect_from:
+  - /cv/
   - /resume
 ---
 
 {% include base_path %}
 
-A printable PDF version is available: [CV.pdf](/files/cv.pdf).
+For a one-page printable summary, see my [CV (PDF)](/files/cv.pdf).
 
 Education
 ======
