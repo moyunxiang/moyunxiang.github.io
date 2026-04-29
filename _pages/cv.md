@@ -9,22 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
-You can also download a PDF version: [CV.pdf](/files/cv.pdf).
+A printable PDF version is available: [CV.pdf](/files/cv.pdf).
 
 Education
 ======
-* B.Sc. in Computer Science, Mathematics, and Artificial Intelligence (triple major), **HKUST**, 2024 – 2028 (expected)
-  * GPA: [your GPA] / 4.3
-  * Relevant coursework: [list]
+* **The Hong Kong University of Science and Technology (HKUST)** — *Sep 2024 – present*
+  * BSc in Computer Science, Mathematics, and Artificial Intelligence (triple major), Year 2
+  * **GPA: 4.03 / 4.3**
+  * **A+ in every Mathematics and Computer Science course taken** (top 5% in each)
+  * Relevant coursework: Algorithms, Statistical Inference, Machine Learning, Linear Algebra, Probability Theory
 
 Research Experience
 ======
-* **[Lab / Project Name]**, HKUST, 2025 – present
-  * Advisor: [Prof. Name]
-  * [One-line description of what you work on]
-
-* **[Earlier project / internship]**, [Place], [Dates]
-  * [One line]
+* **HKUST KnowComp Group**, advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) — *2025 – present*
+  * Research on reasoning and evaluation of large language models and vision-language models.
+  * Focus on abductive and multimodal reasoning.
 
 Publications
 ======
@@ -32,16 +31,27 @@ Publications
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
+Internship Experience
+======
+* **Beijing Ingenic Semiconductor Co., Ltd.** — Machine Learning Engineer Intern, *Jun 2025 – Aug 2025*
+  * Developed and optimized ML models for embedded / on-chip AI scenarios.
+  * Built model training, evaluation, and inference pipelines in PyTorch.
+  * Deployed models to edge devices under tight latency and memory constraints.
+  * Worked across algorithm and hardware teams to align model design with chip-level constraints.
+
+* **Benchmark Architectural Design Co., Ltd** — *Jan 2025*
+  * Built front-end modules with the MFC framework for an internal mini-program.
+  * UI design, event handling, and system debugging in a small team.
+
 Honors & Awards
 ======
-* [Award], [Year]
-* [Award], [Year]
+* **ACM-ICPC East Asia Regional Contest** — Finalist / Honorable Mention
+* **National Mathematical Olympiad** — Second Prize (2023)
+* **National Informatics Competition** — Second Prize (2022)
 
-Skills
+Technical Skills
 ======
-* **Programming**: Python (PyTorch, Hugging Face), C/C++, TypeScript
-* **Languages**: English (fluent), Mandarin (native), Cantonese (conversational)
-
-Service
-======
-* Reviewer: [Venue], [Year]
+* **Machine Learning & NLP**: Transformer architectures, multimodal reasoning, abductive inference, prompt engineering, fine-tuning
+* **Frameworks & Tools**: PyTorch, Hugging Face Transformers, OpenAI API
+* **Programming Languages**: Python, C++, MATLAB
+* **Languages**: Chinese (native), English (fluent)

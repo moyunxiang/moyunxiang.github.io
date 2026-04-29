@@ -1,13 +1,26 @@
 ---
-title: "[Paper Title — EMNLP 2025]"
+title: "DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay"
 collection: publications
 category: conferences
-permalink: /publication/2025-emnlp-paper
-excerpt: 'Short one-sentence summary of the paper.'
-date: 2025-11-01
-venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
-paperurl: ''
-citation: 'Mo Yunxiang, Co-author A. (2025). &quot;[Paper Title].&quot; <i>Proceedings of EMNLP 2025</i>.'
+permalink: /publication/2025-emnlp-dixitworld
+excerpt: 'A multi-agent evaluation framework — inspired by the board game Dixit — for assessing abductive reasoning in vision-language models. EMNLP 2025 Workshop Spotlight.'
+date: 2025-10-11
+venue: 'EMNLP 2025 Workshop (Spotlight)'
+paperurl: 'https://arxiv.org/abs/2510.10117'
+citation: 'Yunxiang Mo, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song. (2025). &quot;DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay.&quot; <i>EMNLP 2025 Workshop</i>.'
 ---
 
-Add an abstract / TL;DR / figures here.
+**Authors:** <u>Yunxiang Mo</u>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
+
+**Venue:** EMNLP 2025 Workshop — **Spotlight**.
+
+**Links:** \[[arXiv](https://arxiv.org/abs/2510.10117)\]
+
+## Abstract
+
+We introduce **DixitWorld**, an evaluation framework for assessing multimodal abductive reasoning in vision-language models (VLMs). DixitWorld has two components:
+
+- **DixitArena** — a dynamic multi-agent setting in which models alternate between generating cryptic clues (*storyteller*) and selecting the target image from alternatives (*listener*).
+- **DixitBench** — a static benchmark that isolates the listener task for controlled assessment.
+
+We find that **smaller open-source models often excel as creative storytellers**, producing imaginative but less discriminative clues, while larger proprietary models show stronger overall performance. The results expose a fundamental tradeoff between *generative creativity* and *discriminative understanding* in multimodal reasoning.
