@@ -24,7 +24,7 @@ Publications
 **Conference Papers**
 
 - **DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay**.
-  <u>Yunxiang Mo</u><sup>*</sup>, Tianshi Zheng<sup>*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
+  <u>Yunxiang Mo</u><sup>\*</sup>, Tianshi Zheng<sup>\*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
   *ACL 2026 (Main Conference, oral pending — AC meta-review 9/10).*
   *Extended version of the workshop paper below — adds a Medium difficulty tier (252 vs. 168 QA items), a 72B-parameter scaling ablation, and calibration/sensitivity analyses.*
   \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\] · \[[details](/publication/2026-acl-dixitworld)\]
@@ -32,7 +32,7 @@ Publications
 **Workshop Papers**
 
 - **DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay**.
-  <u>Yunxiang Mo</u><sup>*</sup>, Tianshi Zheng<sup>*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
+  <u>Yunxiang Mo</u><sup>\*</sup>, Tianshi Zheng<sup>\*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
   *EMNLP 2025 Workshop (Spotlight).*
   \[[arXiv](https://arxiv.org/abs/2510.10117)\] · \[[details](/publication/2025-emnlp-dixitworld-workshop)\]
 
@@ -40,7 +40,7 @@ Publications
 
 Awards & Honors
 ======
-- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *An elite program for the most mathematically talented HKUST undergraduates.*
+- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *Honor for top academic performance across all mathematics coursework.*
 - **University's Scholarship Scheme for Continuing Undergraduate Students** (Top 1%), 2024, 2025
 - **Dean's List Honor** (twice; GPA above 3.7), 2024, 2025
 

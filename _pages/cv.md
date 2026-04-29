@@ -45,7 +45,7 @@ Internship Experience
 
 Honors & Awards
 ======
-* **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *An elite program for the most mathematically talented HKUST undergraduates.*
+* **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *Honor for top academic performance across all mathematics coursework.*
 * **University's Scholarship Scheme for Continuing Undergraduate Students** (Top 1%), 2024, 2025
 * **Dean's List Honor** (twice; GPA above 3.7), 2024, 2025
 * **ACM-ICPC East Asia Regional Contest** — Finalist / Honorable Mention
