@@ -15,17 +15,27 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 News
 ======
-- **Mar 2026** — *DixitWorld* was accepted to **ACL 2026 Main Conference** (AC meta-review 9/10, oral decision pending). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
-- **Oct 2025** — An earlier version of *DixitWorld* received a **Spotlight** at the **EMNLP 2025 Workshop**. \[[arXiv](https://arxiv.org/abs/2510.10117)\]
+- **Mar 2026** — An extended version of *DixitWorld* was accepted to **ACL 2026 Main Conference** (AC meta-review 9/10, oral decision pending). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
+- **Oct 2025** — *DixitWorld* received a **Spotlight** at the **EMNLP 2025 Workshop** (BlackBox NLP). \[[arXiv](https://arxiv.org/abs/2510.10117)\]
 
-Selected Publications
+Publications
 ======
-<sup>*</sup> denotes equal contribution. A full list lives on the [Publications](/publications/) page.
+<sup>*</sup> denotes equal contribution. Full list on the [Publications](/publications/) page.
+
+**Conference Papers**
 
 - **DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay**.
-  <u>Yunxiang Mo</u>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
-  *ACL 2026 (Main Conference).* Earlier version: *EMNLP 2025 Workshop (Spotlight).*
-  \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\] · \[[arXiv](https://arxiv.org/abs/2510.10117)\]
+  <u>Yunxiang Mo</u><sup>*</sup>, Tianshi Zheng<sup>*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
+  *ACL 2026 (Main Conference, oral pending — AC meta-review 9/10).*
+  *Extended version of the workshop paper below — adds a Medium difficulty tier (252 vs. 168 QA items), a 72B-parameter scaling ablation, and calibration/sensitivity analyses.*
+  \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\] · \[[details](/publication/2026-acl-dixitworld)\]
+
+**Workshop Papers**
+
+- **DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay**.
+  <u>Yunxiang Mo</u><sup>*</sup>, Tianshi Zheng<sup>*</sup>, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
+  *EMNLP 2025 Workshop (Spotlight).*
+  \[[arXiv](https://arxiv.org/abs/2510.10117)\] · \[[details](/publication/2025-emnlp-dixitworld-workshop)\]
 
 Contact
 ======
