@@ -1,0 +1,18 @@
+# Top navigation — kept minimal to match rcorona.github.io style.
+# Uncomment additional entries below as your site grows.
+
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "CV"
+    url: /cv/
+
+  # - title: "Talks"
+  #   url: /talks/
+
+  # - title: "Teaching"
+  #   url: /teaching/
+
+  # - title: "Blog"
+  #   url: /year-archive/
