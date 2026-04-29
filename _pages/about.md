@@ -38,6 +38,12 @@ Publications
 
 <sup>\*</sup> <small>equal contribution</small>
 
+Awards & Honors
+======
+- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *An elite program for the most mathematically talented HKUST undergraduates.*
+- **University's Scholarship Scheme for Continuing Undergraduate Students** (Top 1%), 2024, 2025
+- **Dean's List Honor** (twice; GPA above 3.7), 2024, 2025
+
 Contact
 ======
 - Email: ymoaj [at] connect [dot] ust [dot] hk
