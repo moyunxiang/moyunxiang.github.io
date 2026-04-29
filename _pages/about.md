@@ -13,6 +13,12 @@ My research interests center on **natural language processing**, with a focus on
 
 I am currently looking for a **research-exchange position in the U.S.** for the upcoming term. If you are a faculty member working on related topics and have an opening, I would be glad to chat — please feel free to reach out via email.
 
+Awards & Honors
+======
+- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *Honor for top academic performance across all mathematics coursework.*
+- **University's Scholarship Scheme for Continuing Undergraduate Students** (Top 1%), 2024, 2025
+- **Dean's List Honor** (twice; GPA above 3.7), 2024, 2025
+
 News
 ======
 - **Mar 2026** — An extended version of *DixitWorld* was accepted to **ACL 2026 Main Conference** (AC meta-review 9/10, oral decision pending). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
@@ -37,12 +43,6 @@ Publications
   \[[arXiv](https://arxiv.org/abs/2510.10117)\] · \[[details](/publication/2025-emnlp-dixitworld-workshop)\]
 
 <sup>\*</sup> <small>equal contribution</small>
-
-Awards & Honors
-======
-- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *Honor for top academic performance across all mathematics coursework.*
-- **University's Scholarship Scheme for Continuing Undergraduate Students** (Top 1%), 2024, 2025
-- **Dean's List Honor** (twice; GPA above 3.7), 2024, 2025
 
 Contact
 ======

@@ -19,6 +19,12 @@ Education
   * **A+ in every Mathematics and Computer Science course taken** (top 5% in each)
   * Relevant coursework: Algorithms, Statistical Inference, Machine Learning, Linear Algebra, Probability Theory
 
+Honors & Awards
+======
+* **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *Honor for top academic performance across all mathematics coursework.*
+* **University's Scholarship Scheme for Continuing Undergraduate Students** (Top 1%), 2024, 2025
+* **Dean's List Honor** (twice; GPA above 3.7), 2024, 2025
+
 Research Experience
 ======
 * **HKUST KnowComp Group**, advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) — *2025 – present*
@@ -43,14 +49,11 @@ Internship Experience
   * Built front-end modules with the MFC framework for an internal mini-program.
   * UI design, event handling, and system debugging in a small team.
 
-Honors & Awards
+Competitions
 ======
-* **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — HKUST Department of Mathematics, 2025. *Honor for top academic performance across all mathematics coursework.*
-* **University's Scholarship Scheme for Continuing Undergraduate Students** (Top 1%), 2024, 2025
-* **Dean's List Honor** (twice; GPA above 3.7), 2024, 2025
 * **ACM-ICPC East Asia Regional Contest** — Finalist / Honorable Mention
-* **National Mathematical Olympiad** — Second Prize, 2023
-* **National Informatics Competition** — Second Prize, 2022
+* **National Mathematical Olympiad (China)** — Second Prize, 2023
+* **National Informatics Competition (China)** — Second Prize, 2022
 
 Technical Skills
 ======
