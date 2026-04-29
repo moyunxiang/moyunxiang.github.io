@@ -16,7 +16,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 **Honors:**
 
 - University's Scholarship Scheme for Continuing Undergraduate Students (**Top 1%**), 2024 & 2025
-- [S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/), 2025. *Honor for top academic performance across all mathematics coursework.*
+- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — *Honor for top academic performance across all mathematics coursework.*
 - Dean's List Honor (GPA above 3.7), 2024 & 2025
 
 News
