@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year undergraduate at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a **double major in Computer Science and Mathematics**, with an **Extended Major in Artificial Intelligence**. I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) at the HKUST [KnowComp Group](http://hkust-knowcomp.github.io/).
+I am an undergraduate at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a **double major in Computer Science and Mathematics** with an **Extended Major in Artificial Intelligence**. I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) at the HKUST [KnowComp Group](http://hkust-knowcomp.github.io/).
 
 My research interests center on **natural language processing**, with a focus on the **reasoning** and **evaluation** of large language models and vision-language models. I am especially interested in *abductive* and *multimodal* reasoning — how models form, defend, and revise hypotheses under ambiguity.
 
