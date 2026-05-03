@@ -19,7 +19,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 🔥 News
 ======
-- *2026.03*: 🎉 An extended version of *DixitWorld* was accepted to **ACL 2026 Main Conference** (AC meta-review 9/10, oral decision pending). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
+- *2026.03*: 🎉 An extended version of *DixitWorld* was accepted to **ACL 2026** (AC meta-review 9/10, oral decision pending). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
 - *2026.01*: 🎉 *ScaleCUA* was accepted to **ICLR 2026** as an **Oral**. \[[arXiv](https://arxiv.org/abs/2509.15221)\]
 - *2025.10*: 🎉 *DixitWorld* received a **Spotlight** at the **EMNLP 2025 Workshop** (BlackBox NLP). \[[arXiv](https://arxiv.org/abs/2510.10117)\]
 
@@ -36,9 +36,9 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 - *2025.01* | **Intern**, Benchmark Architectural Design Co., Ltd.  
   Developed front-end modules with the MFC framework for an internal mini-program project; UI design, event handling, and system debugging in a small team.
 
-<span class="anchor" id="selected-publications"></span>
+<span class="anchor" id="publications"></span>
 
-📚 Selected Publications
+📚 Publications
 ======
 
 <div class="paper-box">
@@ -49,7 +49,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
     </p>
     <p class="paper-title"><a href="https://openreview.net/forum?id=ikU0NDfKvO">DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay</a></p>
     <p class="paper-authors"><strong>Yunxiang Mo</strong>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.</p>
-    <p class="paper-meta"><strong>ACL 2026</strong> (Main Conference) <span class="paper-meta-highlight oral-pending">Oral pending</span> <span class="paper-meta-highlight">AC 9/10</span></p>
+    <p class="paper-meta"><strong>ACL 2026</strong> <span class="paper-meta-highlight oral-pending">Oral pending</span> <span class="paper-meta-highlight">AC 9/10</span></p>
     <p class="paper-extra">Extended version of the workshop paper below — adds a Medium difficulty tier (252 vs. 168 QA items), a 72B-parameter scaling ablation, and calibration/sensitivity analyses.</p>
   </div>
 </div>
