@@ -21,6 +21,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 News
 ======
+- **Apr 2026** — *ScaleCUA* was accepted to **ICLR 2026** as an **Oral**. \[[arXiv](https://arxiv.org/abs/2509.15221)\]
 - **Mar 2026** — An extended version of *DixitWorld* was accepted to **ACL 2026 Main Conference** (AC meta-review 9/10, oral decision pending). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
 - **Oct 2025** — *DixitWorld* received a **Spotlight** at the **EMNLP 2025 Workshop** (BlackBox NLP). \[[arXiv](https://arxiv.org/abs/2510.10117)\]
 
@@ -34,6 +35,12 @@ Publications
   *ACL 2026 (Main Conference, oral pending — AC meta-review 9/10).*
   *Extended version of the workshop paper below — adds a Medium difficulty tier (252 vs. 168 QA items), a 72B-parameter scaling ablation, and calibration/sensitivity analyses.*
   \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\] · \[[details](/publication/2026-acl-dixitworld)\]
+
+- **ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data**.
+  Zhaoyang Liu, Jingjing Xie, Zichen Ding, Zehao Li, Bowen Yang, Zhenyu Wu, Xuehui Wang, Qiushi Sun, Shi Liu, Weiyun Wang, Shenglong Ye, Qingyun Li, Xuan Dong, Yue Yu, Chenyu Lu, <u>Yunxiang Mo</u>, Yao Yan, Zeyue Tian, Xiao Zhang, Yuan Huang, Yiqian Liu, Weijie Su, Gen Luo, Xiangyu Yue, Biqing Qi, Kai Chen, Bowen Zhou, Yu Qiao, Qifeng Chen, Wenhai Wang.
+  *ICLR 2026 (Oral).*
+  *My contribution: data pipeline and cross-platform workflow components in the open-source codebase.*
+  \[[arXiv](https://arxiv.org/abs/2509.15221)\] · \[[details](/publication/2026-iclr-scalecua)\]
 
 **Workshop Papers**
 
