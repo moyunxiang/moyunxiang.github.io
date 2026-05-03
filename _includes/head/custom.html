@@ -45,6 +45,9 @@
     cursor: pointer !important;
   }
 
+  /* Smooth scroll for anchor jumps (fallback in addition to JS handler below) */
+  html { scroll-behavior: smooth; }
+
   /* Don't override the colored paper-link badges */
   .paper-links a,
   .paper-links a:link,
@@ -152,5 +155,35 @@
     .paper-box-image { flex: none; max-width: 100%; }
   }
 </style>
+
+<!-- Intercept all top-nav clicks on same-page anchors: smooth scroll, NO URL change, NO reload -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.greedy-nav a').forEach(function (link) {
+      var href = link.getAttribute('href');
+      if (!href) return;
+      // Skip file links (CV PDF), mailto, javascript:
+      if (/\.(pdf|html?)$/i.test(href)) return;
+      if (/^(mailto:|javascript:|tel:)/i.test(href)) return;
+
+      var url;
+      try { url = new URL(href, window.location.origin); } catch (e) { return; }
+      // Skip cross-origin
+      if (url.origin !== window.location.origin) return;
+
+      link.addEventListener('click', function (e) {
+        // Only intercept when we're already on the link's destination page
+        if (window.location.pathname !== url.pathname) return;
+        e.preventDefault();
+        if (url.hash) {
+          var target = document.querySelector(url.hash);
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+    });
+  });
+</script>
 
 <!-- end custom head snippets -->
