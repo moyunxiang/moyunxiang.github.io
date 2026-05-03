@@ -19,18 +19,25 @@
   /* Hide the empty footer container (gray box) */
   .page__footer { display: none !important; }
 
-  /* Dark-blue link color throughout (was light blue) */
+  /* Body-content links: HKUST navy. Nav and sidebar stay black. */
   .page__content a:link,
-  .page__content a:visited,
-  .greedy-nav a,
-  .author__urls a,
-  .author__urls a:visited {
+  .page__content a:visited {
     color: #003C71;  /* HKUST navy */
   }
-  .page__content a:hover,
+  .page__content a:hover {
+    color: #1a73e8;
+  }
+  .greedy-nav a,
+  .greedy-nav a:link,
+  .greedy-nav a:visited,
+  .author__urls a,
+  .author__urls a:link,
+  .author__urls a:visited {
+    color: #000 !important;
+  }
   .greedy-nav a:hover,
   .author__urls a:hover {
-    color: #1a73e8;
+    color: #003C71 !important;
   }
   /* Don't override the colored paper-link badges */
   .paper-links a,
