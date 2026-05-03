@@ -84,9 +84,9 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 🏆 Honors and Awards
 ======
-- *2024, 2025* | **University's Scholarship Scheme for Continuing Undergraduate Students**, HKUST (**Top 1%**)
-- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)**, HKUST Department of Mathematics — *Honor for top academic performance across all mathematics coursework.*
-- *2024, 2025* | **Dean's List Honor**, HKUST (GPA above 3.7)
+- **University's Scholarship Scheme for Continuing Undergraduate Students**, HKUST, 2024 & 2025. *Top 1% of continuing undergraduates.*
+- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)**, HKUST. *Honor for top academic performance across all mathematics coursework.*
+- **Dean's List Honor**, HKUST, 2024 & 2025. *GPA above 3.7.*
 
 <span class="anchor" id="academic-services"></span>
 
