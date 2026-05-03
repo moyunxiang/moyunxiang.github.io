@@ -19,6 +19,27 @@
   /* Hide the empty footer container (gray box) */
   .page__footer { display: none !important; }
 
+  /* Dark-blue link color throughout (was light blue) */
+  .page__content a:link,
+  .page__content a:visited,
+  .greedy-nav a,
+  .author__urls a,
+  .author__urls a:visited {
+    color: #003C71;  /* HKUST navy */
+  }
+  .page__content a:hover,
+  .greedy-nav a:hover,
+  .author__urls a:hover {
+    color: #1a73e8;
+  }
+  /* Don't override the colored paper-link badges */
+  .paper-links a,
+  .paper-links a:link,
+  .paper-links a:visited,
+  .paper-links a:hover {
+    color: #fff !important;
+  }
+
   /* Compact base font for the main article column */
   .page__content {
     font-size: 15px;
