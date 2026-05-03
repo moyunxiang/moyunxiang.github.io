@@ -99,4 +99,4 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 🎓 Teaching
 ======
 - **Teaching Assistant**, *Discrete Mathematics* — HKUST.
-- **Teaching Assistant**, *Inquiry of Artificial Intelligence* — HKUST.
+- **Teaching Assistant**, *Exploring Artificial Intelligence* — HKUST.
