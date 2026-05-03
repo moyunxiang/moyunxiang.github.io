@@ -14,4 +14,106 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Custom typography + publication-card styles -->
+<style>
+  /* Compact base font for the main article column */
+  .page__content {
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .page__content h1 {
+    font-size: 1.55em;
+    margin-top: 1.5em;
+    margin-bottom: 0.4em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.2em;
+  }
+  .page__content h1:first-of-type {
+    margin-top: 0.4em;
+  }
+
+  /* Paper-box layout — card per publication */
+  .paper-box {
+    display: flex;
+    gap: 1.2em;
+    margin: 1em 0;
+    padding-bottom: 0.9em;
+    border-bottom: 1px solid #eee;
+    align-items: flex-start;
+  }
+  .paper-box-image {
+    flex: 0 0 180px;
+    max-width: 180px;
+  }
+  .paper-box-image img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .paper-box-text {
+    flex: 1;
+    min-width: 0;
+  }
+  .paper-title {
+    font-weight: 600;
+    margin: 0 0 0.25em 0 !important;
+    font-size: 1.02em;
+    line-height: 1.35;
+  }
+  .paper-authors {
+    margin: 0 0 0.35em 0 !important;
+    color: #555;
+    font-size: 0.93em;
+  }
+  .paper-meta {
+    margin: 0 0 0.25em 0 !important;
+    font-style: italic;
+    color: #444;
+    font-size: 0.93em;
+  }
+  .paper-meta-highlight {
+    background: #ff5722;
+    color: #fff;
+    padding: 0.08em 0.5em;
+    border-radius: 3px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.78em;
+    margin-left: 0.35em;
+    vertical-align: 2px;
+    letter-spacing: 0.02em;
+  }
+  .paper-meta-highlight.spotlight { background: #6f42c1; }
+  .paper-meta-highlight.oral-pending { background: #fd7e14; }
+  .paper-extra {
+    margin: 0.3em 0 0 0 !important;
+    color: #666;
+    font-size: 0.86em;
+    font-style: italic;
+    line-height: 1.45;
+  }
+  .paper-links {
+    margin: 0 0 0.35em 0 !important;
+    font-size: 0.82em;
+  }
+  .paper-links a {
+    display: inline-block;
+    padding: 0.1em 0.55em;
+    margin-right: 0.3em;
+    border-radius: 3px;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-weight: 500;
+  }
+  .paper-link-arxiv      { background: #b31b1b; }
+  .paper-link-openreview { background: #8c1515; }
+  .paper-link-details    { background: #6c757d; }
+  .paper-link-github     { background: #333; }
+
+  @media (max-width: 600px) {
+    .paper-box { flex-direction: column; }
+    .paper-box-image { flex: none; max-width: 100%; }
+  }
+</style>
+
 <!-- end custom head snippets -->

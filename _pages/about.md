@@ -28,26 +28,44 @@ News
 Publications
 ======
 
-**Conference Papers**
+<div class="paper-box">
+  <div class="paper-box-text">
+    <p class="paper-links">
+      <a class="paper-link-openreview" href="https://openreview.net/forum?id=ikU0NDfKvO" target="_blank" rel="noopener">OpenReview</a>
+      <a class="paper-link-details" href="/publication/2026-acl-dixitworld">Details</a>
+    </p>
+    <p class="paper-title"><a href="https://openreview.net/forum?id=ikU0NDfKvO">DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay</a></p>
+    <p class="paper-authors"><strong>Yunxiang Mo</strong>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.</p>
+    <p class="paper-meta"><strong>ACL 2026</strong> (Main Conference) <span class="paper-meta-highlight oral-pending">Oral pending</span> <span class="paper-meta-highlight">AC 9/10</span></p>
+    <p class="paper-extra">Extended version of the workshop paper below — adds a Medium difficulty tier (252 vs. 168 QA items), a 72B-parameter scaling ablation, and calibration/sensitivity analyses.</p>
+  </div>
+</div>
 
-- **DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay**.
-  <u>Yunxiang Mo</u>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
-  *ACL 2026 (Main Conference, oral pending — AC meta-review 9/10).*
-  *Extended version of the workshop paper below — adds a Medium difficulty tier (252 vs. 168 QA items), a 72B-parameter scaling ablation, and calibration/sensitivity analyses.*
-  \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\] · \[[details](/publication/2026-acl-dixitworld)\]
+<div class="paper-box">
+  <div class="paper-box-text">
+    <p class="paper-links">
+      <a class="paper-link-arxiv" href="https://arxiv.org/abs/2509.15221" target="_blank" rel="noopener">arXiv</a>
+      <a class="paper-link-details" href="/publication/2026-iclr-scalecua">Details</a>
+    </p>
+    <p class="paper-title"><a href="https://arxiv.org/abs/2509.15221">ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data</a></p>
+    <p class="paper-authors">Zhaoyang Liu, Jingjing Xie, Zichen Ding, Zehao Li, Bowen Yang, Zhenyu Wu, Xuehui Wang, Qiushi Sun, Shi Liu, Weiyun Wang, Shenglong Ye, Qingyun Li, Xuan Dong, Yue Yu, Chenyu Lu, <strong>Yunxiang Mo</strong>, Yao Yan, Zeyue Tian, Xiao Zhang, Yuan Huang, Yiqian Liu, Weijie Su, Gen Luo, Xiangyu Yue, Biqing Qi, Kai Chen, Bowen Zhou, Yu Qiao, Qifeng Chen, Wenhai Wang.</p>
+    <p class="paper-meta"><strong>ICLR 2026</strong> <span class="paper-meta-highlight">Oral</span></p>
+    <p class="paper-extra">My contribution: data pipeline and cross-platform workflow components in the open-source codebase.</p>
+  </div>
+</div>
 
-- **ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data**.
-  Zhaoyang Liu, Jingjing Xie, Zichen Ding, Zehao Li, Bowen Yang, Zhenyu Wu, Xuehui Wang, Qiushi Sun, Shi Liu, Weiyun Wang, Shenglong Ye, Qingyun Li, Xuan Dong, Yue Yu, Chenyu Lu, <u>Yunxiang Mo</u>, Yao Yan, Zeyue Tian, Xiao Zhang, Yuan Huang, Yiqian Liu, Weijie Su, Gen Luo, Xiangyu Yue, Biqing Qi, Kai Chen, Bowen Zhou, Yu Qiao, Qifeng Chen, Wenhai Wang.
-  *ICLR 2026 (Oral).*
-  *My contribution: data pipeline and cross-platform workflow components in the open-source codebase.*
-  \[[arXiv](https://arxiv.org/abs/2509.15221)\] · \[[details](/publication/2026-iclr-scalecua)\]
-
-**Workshop Papers**
-
-- **DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay**.
-  <u>Yunxiang Mo</u>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
-  *EMNLP 2025 Workshop (Spotlight).*
-  \[[arXiv](https://arxiv.org/abs/2510.10117)\] · \[[details](/publication/2025-emnlp-dixitworld-workshop)\]
+<div class="paper-box">
+  <div class="paper-box-text">
+    <p class="paper-links">
+      <a class="paper-link-arxiv" href="https://arxiv.org/abs/2510.10117" target="_blank" rel="noopener">arXiv</a>
+      <a class="paper-link-details" href="/publication/2025-emnlp-dixitworld-workshop">Details</a>
+    </p>
+    <p class="paper-title"><a href="https://arxiv.org/abs/2510.10117">DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay</a></p>
+    <p class="paper-authors"><strong>Yunxiang Mo</strong>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.</p>
+    <p class="paper-meta"><strong>EMNLP 2025 Workshop</strong> <span class="paper-meta-highlight spotlight">Spotlight</span></p>
+    <p class="paper-extra">Original workshop version; extended version accepted to ACL 2026 Main (above).</p>
+  </div>
+</div>
 
 Contact
 ======
