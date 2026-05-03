@@ -39,6 +39,12 @@
   .author__urls a:hover {
     color: #003C71 !important;
   }
+  /* Re-enable clicking on the "selected" (current page) nav item — theme disables it by default */
+  .masthead__menu-item.selected a {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+  }
+
   /* Don't override the colored paper-link badges */
   .paper-links a,
   .paper-links a:link,

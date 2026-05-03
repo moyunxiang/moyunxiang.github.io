@@ -27,7 +27,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 💼 Experience
 ======
-- *2025 – present* | **Undergraduate Researcher**, HKUST [KnowComp Group](https://github.com/HKUST-KnowComp), Hong Kong SAR, China  
+- *2025.04 – present* | **Undergraduate Researcher**, HKUST [KnowComp Group](https://github.com/HKUST-KnowComp), Hong Kong SAR, China  
   Advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/). Research on reasoning and evaluation of large language models and vision-language models, with focus on abductive and multimodal reasoning.
 
 - *2025.06 – 2025.08* | **Machine Learning Engineer Intern**, Beijing Ingenic Semiconductor Co., Ltd., Beijing, China  
