@@ -17,15 +17,28 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 <span class="anchor" id="news"></span>
 
-News
+🔥 News
 ======
-- **Apr 2026** — *ScaleCUA* was accepted to **ICLR 2026** as an **Oral**. \[[arXiv](https://arxiv.org/abs/2509.15221)\]
-- **Mar 2026** — An extended version of *DixitWorld* was accepted to **ACL 2026 Main Conference** (AC meta-review 9/10, oral decision pending). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
-- **Oct 2025** — *DixitWorld* received a **Spotlight** at the **EMNLP 2025 Workshop** (BlackBox NLP). \[[arXiv](https://arxiv.org/abs/2510.10117)\]
+- *2026.04*: 🎉 *ScaleCUA* was accepted to **ICLR 2026** as an **Oral**. \[[arXiv](https://arxiv.org/abs/2509.15221)\]
+- *2026.03*: 🎉 An extended version of *DixitWorld* was accepted to **ACL 2026 Main Conference** (AC meta-review 9/10, oral decision pending). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
+- *2025.10*: 🎉 *DixitWorld* received a **Spotlight** at the **EMNLP 2025 Workshop** (BlackBox NLP). \[[arXiv](https://arxiv.org/abs/2510.10117)\]
 
-<span class="anchor" id="publications"></span>
+<span class="anchor" id="experience"></span>
 
-Publications
+💼 Experience
+======
+- *2025 – present* | **Undergraduate Researcher**, HKUST KnowComp Group, Hong Kong SAR, China  
+  Advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/). Research on reasoning and evaluation of large language models and vision-language models, with focus on abductive and multimodal reasoning.
+
+- *2025.06 – 2025.08* | **Machine Learning Engineer Intern**, Beijing Ingenic Semiconductor Co., Ltd., Beijing, China  
+  Developed and optimized ML models for embedded and on-chip AI scenarios; built training, evaluation, and inference pipelines in PyTorch; deployed models to edge devices under tight latency and memory constraints.
+
+- *2025.01* | **Intern**, Benchmark Architectural Design Co., Ltd.  
+  Developed front-end modules with the MFC framework for an internal mini-program project; UI design, event handling, and system debugging in a small team.
+
+<span class="anchor" id="selected-publications"></span>
+
+📚 Selected Publications
 ======
 
 <div class="paper-box">
@@ -69,21 +82,21 @@ Publications
 
 <span class="anchor" id="honors-and-awards"></span>
 
-Honors and Awards
+🏆 Honors and Awards
 ======
-- **University's Scholarship Scheme for Continuing Undergraduate Students** (**Top 1%**), 2024 & 2025
-- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — *Honor for top academic performance across all mathematics coursework.*
-- **Dean's List Honor** (GPA above 3.7), 2024 & 2025
+- *2024, 2025* | **University's Scholarship Scheme for Continuing Undergraduate Students**, HKUST (**Top 1%**)
+- **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)**, HKUST Department of Mathematics — *Honor for top academic performance across all mathematics coursework.*
+- *2024, 2025* | **Dean's List Honor**, HKUST (GPA above 3.7)
 
-<span class="anchor" id="services"></span>
+<span class="anchor" id="academic-services"></span>
 
-Services
+🤝 Academic Services
 ======
 *(Coming soon.)*
 
 <span class="anchor" id="teaching"></span>
 
-Teaching
+🎓 Teaching
 ======
 - **Teaching Assistant**, *Discrete Mathematics* — HKUST.
 - **Teaching Assistant**, *Inquiry of Artificial Intelligence* — HKUST.
