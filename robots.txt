@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /files/transcript.pdf
+
+Sitemap: https://moyunxiang.github.io/sitemap.xml
