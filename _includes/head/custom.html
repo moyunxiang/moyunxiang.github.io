@@ -45,8 +45,8 @@
     cursor: pointer !important;
   }
 
-  /* Smooth scroll for anchor jumps (fallback in addition to JS handler below) */
-  html { scroll-behavior: smooth; }
+  /* Custom JS handles scroll; disable CSS smooth-scroll to avoid double-easing */
+  html { scroll-behavior: auto; }
 
   /* Don't override the colored paper-link badges */
   .paper-links a,
@@ -156,34 +156,63 @@
   }
 </style>
 
-<!-- Intercept all top-nav clicks on same-page anchors: smooth scroll, NO URL change, NO reload -->
+<!-- Intercept all top-nav clicks on same-page anchors: smooth scroll, NO URL change, NO reload. -->
+<!-- Capture-phase listener so it runs before greedy-nav's own handlers. -->
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.greedy-nav a').forEach(function (link) {
-      var href = link.getAttribute('href');
-      if (!href) return;
-      // Skip file links (CV PDF), mailto, javascript:
-      if (/\.(pdf|html?)$/i.test(href)) return;
-      if (/^(mailto:|javascript:|tel:)/i.test(href)) return;
+  (function () {
+    function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
 
-      var url;
-      try { url = new URL(href, window.location.origin); } catch (e) { return; }
-      // Skip cross-origin
-      if (url.origin !== window.location.origin) return;
+    function smoothScrollTo(targetY) {
+      var startY = window.pageYOffset;
+      var distance = targetY - startY;
+      if (Math.abs(distance) < 1) return;
+      // Snappy ease-out: short for nearby targets, capped for far ones.
+      var duration = Math.min(550, Math.max(250, Math.abs(distance) * 0.3));
+      var startTime = performance.now();
+      function step(now) {
+        var p = Math.min((now - startTime) / duration, 1);
+        window.scrollTo(0, startY + distance * easeOutCubic(p));
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
 
-      link.addEventListener('click', function (e) {
-        // Only intercept when we're already on the link's destination page
-        if (window.location.pathname !== url.pathname) return;
-        e.preventDefault();
-        if (url.hash) {
-          var target = document.querySelector(url.hash);
-          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
+    function bind() {
+      document.querySelectorAll('.greedy-nav a').forEach(function (link) {
+        if (link.dataset.smoothBound) return;
+        link.dataset.smoothBound = '1';
+
+        var href = link.getAttribute('href');
+        if (!href) return;
+        if (/\.(pdf|html?)$/i.test(href)) return;
+        if (/^(mailto:|javascript:|tel:)/i.test(href)) return;
+
+        var url;
+        try { url = new URL(href, window.location.origin); } catch (e) { return; }
+        if (url.origin !== window.location.origin) return;
+
+        link.addEventListener('click', function (e) {
+          if (window.location.pathname !== url.pathname) return;
+          e.preventDefault();
+          e.stopPropagation();
+          var targetY = 0;
+          if (url.hash) {
+            var target = document.querySelector(url.hash);
+            if (!target) return;
+            targetY = target.getBoundingClientRect().top + window.pageYOffset - 20;
+            if (targetY < 0) targetY = 0;
+          }
+          smoothScrollTo(targetY);
+        }, true);  // capture phase — runs before any other click listener
       });
-    });
-  });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', bind);
+    } else {
+      bind();
+    }
+  })();
 </script>
 
 <!-- end custom head snippets -->
