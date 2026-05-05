@@ -156,8 +156,8 @@
   }
 </style>
 
-<!-- Intercept all top-nav clicks on same-page anchors: smooth scroll, NO URL change, NO reload. -->
-<!-- Capture-phase listener so it runs before greedy-nav's own handlers. -->
+<!-- Intercept top-nav clicks on same-page anchors: smooth scroll, NO URL change, NO reload. -->
+<!-- Uses event delegation on document at capture phase so it survives greedy-nav node reshuffling. -->
 <script>
   (function () {
     function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
@@ -165,8 +165,7 @@
     function smoothScrollTo(targetY) {
       var startY = window.pageYOffset;
       var distance = targetY - startY;
-      if (Math.abs(distance) < 1) return;
-      // Snappy ease-out: short for nearby targets, capped for far ones.
+      if (Math.abs(distance) < 1) { window.scrollTo(0, targetY); return; }
       var duration = Math.min(550, Math.max(250, Math.abs(distance) * 0.3));
       var startTime = performance.now();
       function step(now) {
@@ -177,41 +176,35 @@
       requestAnimationFrame(step);
     }
 
-    function bind() {
-      document.querySelectorAll('.greedy-nav a').forEach(function (link) {
-        if (link.dataset.smoothBound) return;
-        link.dataset.smoothBound = '1';
+    document.addEventListener('click', function (e) {
+      // Find an <a> ancestor inside the top nav.
+      var link = e.target.closest && e.target.closest('.greedy-nav a');
+      if (!link) return;
 
-        var href = link.getAttribute('href');
-        if (!href) return;
-        if (/\.(pdf|html?)$/i.test(href)) return;
-        if (/^(mailto:|javascript:|tel:)/i.test(href)) return;
+      var href = link.getAttribute('href');
+      if (!href) return;
+      // Let real navigations through: PDFs, html files, external links, mailto, etc.
+      if (/\.(pdf|html?)$/i.test(href)) return;
+      if (/^(mailto:|javascript:|tel:)/i.test(href)) return;
 
-        var url;
-        try { url = new URL(href, window.location.origin); } catch (e) { return; }
-        if (url.origin !== window.location.origin) return;
+      var url;
+      try { url = new URL(href, window.location.origin); } catch (err) { return; }
+      if (url.origin !== window.location.origin) return;
+      // Only intercept when the link's destination page is the page we're on.
+      if (window.location.pathname !== url.pathname) return;
 
-        link.addEventListener('click', function (e) {
-          if (window.location.pathname !== url.pathname) return;
-          e.preventDefault();
-          e.stopPropagation();
-          var targetY = 0;
-          if (url.hash) {
-            var target = document.querySelector(url.hash);
-            if (!target) return;
-            targetY = target.getBoundingClientRect().top + window.pageYOffset - 20;
-            if (targetY < 0) targetY = 0;
-          }
-          smoothScrollTo(targetY);
-        }, true);  // capture phase — runs before any other click listener
-      });
-    }
+      e.preventDefault();
+      e.stopPropagation();
 
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', bind);
-    } else {
-      bind();
-    }
+      var targetY = 0;
+      if (url.hash) {
+        var target = document.querySelector(url.hash);
+        if (!target) return;
+        targetY = target.getBoundingClientRect().top + window.pageYOffset - 20;
+        if (targetY < 0) targetY = 0;
+      }
+      smoothScrollTo(targetY);
+    }, true);  // capture phase — runs before any other click listener
   })();
 </script>
 
