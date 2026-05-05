@@ -19,7 +19,7 @@
   /* Hide the empty footer container (gray box) */
   .page__footer { display: none !important; }
 
-  /* Body-content links: HKUST navy. Nav and sidebar stay black. */
+  /* Body-content links: HKUST navy in light mode. Nav and sidebar stay black. */
   .page__content a:link,
   .page__content a:visited {
     color: #003C71;  /* HKUST navy */
@@ -38,6 +38,30 @@
   .greedy-nav a:hover,
   .author__urls a:hover {
     color: #003C71 !important;
+  }
+
+  /* Dark-mode overrides — HKUST navy is unreadable on dark background. */
+  html[data-theme="dark"] .page__content a:link,
+  html[data-theme="dark"] .page__content a:visited {
+    color: #4ea3d6;       /* lighter blue, ~6:1 contrast on #474747 */
+  }
+  html[data-theme="dark"] .page__content a:hover {
+    color: #8ec5e8;       /* even lighter on hover */
+  }
+  html[data-theme="dark"] .greedy-nav a,
+  html[data-theme="dark"] .greedy-nav a:link,
+  html[data-theme="dark"] .greedy-nav a:visited,
+  html[data-theme="dark"] .author__urls a,
+  html[data-theme="dark"] .author__urls a:link,
+  html[data-theme="dark"] .author__urls a:visited {
+    color: #ffffff !important;   /* nav and sidebar in dark mode use white */
+  }
+  html[data-theme="dark"] .greedy-nav a:hover,
+  html[data-theme="dark"] .author__urls a:hover {
+    color: #4ea3d6 !important;
+  }
+  html[data-theme="dark"] .page__content h1 {
+    border-bottom-color: #5a5a5a;  /* tone down section divider in dark mode */
   }
   /* Re-enable clicking on the "selected" (current page) nav item — theme disables it by default */
   .masthead__menu-item.selected a {
