@@ -13,7 +13,7 @@ title                    : "Yunxiang Mo"
 title_separator          : "-"
 name                     : &name "Yunxiang Mo"
 description              : &description "Personal academic website of Yunxiang Mo — undergraduate researcher in NLP at HKUST."
-url                      : https://moyunxiang.github.io
+url                      : https://moyunxiang.com
 baseurl                  : ""
 repository               : "moyunxiang/moyunxiang.github.io"
 
