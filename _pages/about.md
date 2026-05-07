@@ -91,9 +91,9 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
       <a class="paper-link-website" href="https://web.facere.cc/" target="_blank" rel="noopener">Website</a>
     </p>
     <p class="paper-title"><a href="https://web.facere.cc/" target="_blank" rel="noopener">Facere</a></p>
-    <p class="paper-meta"><strong>A CLI AI agent that designs circuit boards.</strong></p>
-    <p class="paper-authors">Yunxiang Mo, Yiping Zhao, Jiahao Zhang. <em>Independently developed.</em></p>
-    <p class="paper-extra">Pairs an LLM agent with KiCad to draft schematics and PCB layouts from natural-language prompts.</p>
+    <p class="paper-meta"><strong>A CLI that designs circuit boards.</strong></p>
+    <p class="paper-authors">with Yiping Zhao and Jiahao Zhang. <em>Independently developed.</em></p>
+    <p class="paper-extra">An end-to-end agent for schematic and PCB design workflows. We built a hardware-aware MCP server that operates over a curated 153-motif schematic corpus and is paired with a sister PCB physical-simulation package, allowing the agent to plan, edit, and verify designs alongside KiCad. Distributed as a single-command bootstrap installer.</p>
   </div>
 </div>
 
@@ -104,8 +104,8 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
     </p>
     <p class="paper-title"><a href="https://pastpaper.knowit.top/" target="_blank" rel="noopener">PastPaper Master</a></p>
     <p class="paper-meta"><strong>A web app that helps HKUST students practice past exam papers.</strong></p>
-    <p class="paper-authors">Yunxiang Mo, Yiping Zhao, Jiahao Zhang. <em>Independently developed.</em></p>
-    <p class="paper-extra">Auto-extracts every question from an uploaded PDF, generates per-question hints and step-by-step solutions, and grades your handwriting via photo OCR.</p>
+    <p class="paper-authors">with Yiping Zhao and Jiahao Zhang. <em>Independently developed.</em></p>
+    <p class="paper-extra">A full-stack AI tutoring tool for HKUST students preparing past exam papers. GPT-4o auto-segments and tags every question in an uploaded PDF; Qwen-plus generates a per-question knowledge primer, scaffolded hint, and step-by-step solution. The workbench features side-by-side PDF↔question navigation, photo-OCR handwriting grading, automatic variant-problem generation, and an error book with spaced review.</p>
   </div>
 </div>
 
