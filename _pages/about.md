@@ -91,9 +91,9 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
       <a class="paper-link-website" href="https://web.facere.cc/" target="_blank" rel="noopener">Website</a>
     </p>
     <p class="paper-title"><a href="https://web.facere.cc/" target="_blank" rel="noopener">Facere</a></p>
-    <p class="paper-meta"><strong>A CLI that designs circuit boards.</strong></p>
+    <p class="paper-meta"><strong>A CLI for end-to-end hardware design — schematics, PCB layouts, and physical simulation.</strong></p>
     <p class="paper-authors">with Yiping Zhao and Jiahao Zhang. <em>Independently developed.</em></p>
-    <p class="paper-extra">An end-to-end agent for schematic and PCB design workflows. We built a hardware-aware MCP server that operates over a curated 153-motif schematic corpus and is paired with a sister PCB physical-simulation package, allowing the agent to plan, edit, and verify designs alongside KiCad. Distributed as a single-command bootstrap installer.</p>
+    <p class="paper-extra">A terminal-native agent that drafts and edits schematics and PCB layouts alongside KiCad 9. We built a hardware-aware MCP server backed by a curated 153-motif schematic corpus, paired with a sister PCB physical-simulation package, so the agent can plan, edit, and verify designs end-to-end. Distributed as a single-command bootstrap installer.</p>
   </div>
 </div>
 
