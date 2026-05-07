@@ -45,7 +45,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
   <div class="paper-box-text">
     <p class="paper-title">Robust Decision-Making for LLM Agents in Multi-Turn Reasoning</p>
     <p class="paper-meta"><span class="paper-meta-highlight under-review">Under review</span></p>
-    <p class="paper-extra">Formalizes a class of self-locking loops in approximate belief tracking and proposes a training-free distributionally-robust information-gain objective that restores epistemic progress under belief uncertainty.</p>
+    <p class="paper-extra">LLM agents in multi-turn reasoning frequently collapse into self-locking loops, where approximate belief tracking causes them to revisit the same hypotheses without making epistemic progress. We formalize the structural conditions under which such loops arise and show that the failure mode persists across frontier models even when standard information-seeking objectives are applied. To address it, we propose a training-free, distributionally-robust information-gain objective that explicitly hedges against belief-tracking error and restores exploratory progress without any fine-tuning. The method is evaluated on multi-turn reasoning, planning, and decision-making benchmarks across both open- and closed-source LLM agents.</p>
   </div>
 </div>
 
@@ -53,7 +53,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
   <div class="paper-box-text">
     <p class="paper-title">A Multi-Domain LLM Benchmark for Scientific Hypothesis Generation</p>
     <p class="paper-meta"><span class="paper-meta-highlight under-review">Under review</span></p>
-    <p class="paper-extra">A multi-domain benchmark for scientific hypothesis generation. Focuses on rubric design (anchored 5-dimensional scoring with coherence, factual-consistency, and boilerplate checks) and on evaluating tool-augmented hypothesis generation through an agentic literature-search mode.</p>
+    <p class="paper-extra">Scientific hypothesis generation is an open-ended, multi-step task that current LLM benchmarks evaluate poorly: free-text outputs are scored inconsistently, and most setups exclude the literature-grounded reasoning that real scientists rely on. We construct a multi-domain benchmark spanning multiple scientific disciplines, paired with an anchored 5-dimensional rubric that scores coherence, factual consistency, and the presence of boilerplate or hedging language. The benchmark supports two evaluation modes — direct prompting and an agentic mode that allows tool-augmented literature search — making it possible to attribute performance gains to the underlying model versus the surrounding agent scaffold.</p>
   </div>
 </div>
 
