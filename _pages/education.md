@@ -18,7 +18,7 @@ Education
   * BSc — **Double Major** in Computer Science and Mathematics; **Extended Major** in Artificial Intelligence
   * **GPA: 4.03 / 4.3**
   * **Honors:**
-    * University's Scholarship Scheme for Continuing Undergraduate Students (**Top 1%**), 2024 & 2025
+    * University's Scholarship Scheme for Continuing Undergraduate Students (**Top 1%**), 2024
     * **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)** — *Honor for top academic performance across all mathematics coursework.*
     * Dean's List Honor (GPA above 3.7), 2024 & 2025
   * Relevant coursework: Algorithms, Statistical Inference, Machine Learning, Linear Algebra, Probability Theory (A+ in all CS/Math courses)

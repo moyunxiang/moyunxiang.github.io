@@ -87,9 +87,6 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 <div class="paper-box">
   <div class="paper-box-text">
-    <p class="paper-links">
-      <a class="paper-link-website" href="https://web.facere.cc/" target="_blank" rel="noopener">Website</a>
-    </p>
     <p class="paper-title"><a href="https://web.facere.cc/" target="_blank" rel="noopener">Facere — AI-Native Hardware Design Agent</a></p>
     <p class="paper-meta"><strong>A CLI for end-to-end hardware design — schematics, PCB layouts, and physical simulation.</strong></p>
     <p class="paper-authors">with Yiping Zhao and Jiahao Zhang. <em>Independently developed.</em></p>
@@ -99,9 +96,6 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 <div class="paper-box">
   <div class="paper-box-text">
-    <p class="paper-links">
-      <a class="paper-link-website" href="https://pastpaper.knowit.top/" target="_blank" rel="noopener">Website</a>
-    </p>
     <p class="paper-title"><a href="https://pastpaper.knowit.top/" target="_blank" rel="noopener">PastPaper Master — AI Past-Exam Tutor</a></p>
     <p class="paper-meta"><strong>A web app that helps HKUST students practice past exam papers.</strong></p>
     <p class="paper-authors">with Yiping Zhao and Jiahao Zhang. <em>Independently developed.</em></p>
@@ -113,7 +107,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 🏆 Honors and Awards
 ======
-- **University's Scholarship Scheme for Continuing Undergraduate Students**, HKUST, 2024 & 2025. *Top 1% of continuing undergraduates.*
+- **University's Scholarship Scheme for Continuing Undergraduate Students**, HKUST, 2024. *Top 1% of continuing undergraduates.*
 - **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)**, HKUST. *Honor for top academic performance across all mathematics coursework.*
 - **Dean's List Honor**, HKUST, 2024 & 2025. *GPA above 3.7.*
 

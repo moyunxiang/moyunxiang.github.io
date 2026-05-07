@@ -179,6 +179,41 @@
     .paper-box { flex-direction: column; }
     .paper-box-image { flex: none; max-width: 100%; }
   }
+
+  /* ----------- Mobile / tablet polish ----------- */
+  /* Tablet & narrower */
+  @media (max-width: 900px) {
+    .page__content {
+      font-size: 16px;          /* iOS will not auto-zoom inputs at ≥16px */
+      line-height: 1.6;
+    }
+    .page__content h1 {
+      font-size: 1.4em;
+      margin-top: 1.3em;
+      margin-bottom: 0.35em;
+    }
+    .page__content h2 { font-size: 1.2em; }
+    .page__content a  { word-break: break-word; }   /* long URLs don't overflow */
+    .paper-extra      { font-size: 0.92em; }
+    .paper-meta-highlight { font-size: 0.74em; padding: 0.05em 0.4em; }
+    /* Cards: tighter spacing on mobile */
+    .paper-box        { margin: 0.85em 0; padding-bottom: 0.7em; }
+  }
+
+  /* Phones */
+  @media (max-width: 600px) {
+    .page__content h1   { font-size: 1.3em; }
+    .paper-title        { font-size: 1em; }
+    .paper-authors      { font-size: 0.92em; }
+    .paper-meta         { font-size: 0.92em; }
+    /* Sidebar (avatar + bio) — already stacked above content by AcademicPages
+       on narrow widths. Make sure it doesn't try to be sticky on phones. */
+    .sidebar.sticky { position: relative !important; top: auto !important; }
+    /* Reduce horizontal padding to use the screen */
+    .page__inner-wrap { padding: 0 0.6em; }
+    /* Prevent any element from causing horizontal scroll */
+    body { overflow-x: hidden; }
+  }
 </style>
 
 <!-- Intercept top-nav clicks on same-page anchors: smooth scroll, NO URL change, NO reload. -->
