@@ -90,7 +90,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
     <p class="paper-links">
       <a class="paper-link-website" href="https://web.facere.cc/" target="_blank" rel="noopener">Website</a>
     </p>
-    <p class="paper-title"><a href="https://web.facere.cc/" target="_blank" rel="noopener">Facere</a></p>
+    <p class="paper-title"><a href="https://web.facere.cc/" target="_blank" rel="noopener">Facere — AI-Native Hardware Design Agent</a></p>
     <p class="paper-meta"><strong>A CLI for end-to-end hardware design — schematics, PCB layouts, and physical simulation.</strong></p>
     <p class="paper-authors">with Yiping Zhao and Jiahao Zhang. <em>Independently developed.</em></p>
     <p class="paper-extra">A terminal-native agent that drafts and edits schematics and PCB layouts alongside KiCad 9. We built a hardware-aware MCP server backed by a curated 153-motif schematic corpus, paired with a sister PCB physical-simulation package, so the agent can plan, edit, and verify designs end-to-end. Distributed as a single-command bootstrap installer.</p>
@@ -102,7 +102,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
     <p class="paper-links">
       <a class="paper-link-website" href="https://pastpaper.knowit.top/" target="_blank" rel="noopener">Website</a>
     </p>
-    <p class="paper-title"><a href="https://pastpaper.knowit.top/" target="_blank" rel="noopener">PastPaper Master</a></p>
+    <p class="paper-title"><a href="https://pastpaper.knowit.top/" target="_blank" rel="noopener">PastPaper Master — AI Past-Exam Tutor</a></p>
     <p class="paper-meta"><strong>A web app that helps HKUST students practice past exam papers.</strong></p>
     <p class="paper-authors">with Yiping Zhao and Jiahao Zhang. <em>Independently developed.</em></p>
     <p class="paper-extra">A full-stack AI tutoring tool for HKUST students preparing past exam papers. GPT-4o auto-segments and tags every question in an uploaded PDF; Qwen-plus generates a per-question knowledge primer, scaffolded hint, and step-by-step solution. The workbench features side-by-side PDF↔question navigation, photo-OCR handwriting grading, automatic variant-problem generation, and an error book with spaced review.</p>
