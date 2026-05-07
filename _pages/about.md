@@ -45,7 +45,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
   <div class="paper-box-text">
     <p class="paper-title">Robust Decision-Making for LLM Agents in Multi-Turn Reasoning</p>
     <p class="paper-meta"><span class="paper-meta-highlight under-review">Under review</span></p>
-    <p class="paper-extra">Formalizes <em>Belief Trap Regions</em> — self-locking loops induced by approximate belief tracking — and proposes <em>Distributionally Robust Information Gain (DR-IG)</em>, a training-free objective that restores epistemic progress under belief uncertainty.</p>
+    <p class="paper-extra">Formalizes a class of self-locking loops in approximate belief tracking and proposes a training-free distributionally-robust information-gain objective that restores epistemic progress under belief uncertainty.</p>
   </div>
 </div>
 
