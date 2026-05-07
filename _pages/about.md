@@ -80,6 +80,27 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
   </div>
 </div>
 
+<span class="anchor" id="ongoing-research"></span>
+
+🔬 Ongoing Research
+======
+
+<div class="paper-box">
+  <div class="paper-box-text">
+    <p class="paper-title">Robust Decision-Making for LLM Agents in Multi-Turn Reasoning</p>
+    <p class="paper-meta"><span class="paper-meta-highlight under-review">Under review</span></p>
+    <p class="paper-extra">I am currently working on robust decision-making for LLM agents in multi-turn reasoning. The work formalizes <em>Belief Trap Regions</em> — self-locking loops induced by approximate belief tracking — and proposes <em>Distributionally Robust Information Gain (DR-IG)</em>, a training-free objective that restores epistemic progress under belief uncertainty. <em>(In submission to a conference.)</em></p>
+  </div>
+</div>
+
+<div class="paper-box">
+  <div class="paper-box-text">
+    <p class="paper-title">SciSynthBench: A Multi-Domain LLM Benchmark for Scientific Hypothesis Generation</p>
+    <p class="paper-meta"><span class="paper-meta-highlight under-review">Under review</span></p>
+    <p class="paper-extra">I am currently working on <em>SciSynthBench</em>, a multi-domain LLM benchmark for scientific hypothesis generation. The work focuses on rubric design (anchored 5-dimensional scoring with coherence, factual-consistency, and boilerplate checks) and on evaluating tool-augmented hypothesis generation through an agentic literature-search mode. <em>(In submission to a conference.)</em></p>
+  </div>
+</div>
+
 <span class="anchor" id="projects"></span>
 
 🛠️ Projects
