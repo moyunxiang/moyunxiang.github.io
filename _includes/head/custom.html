@@ -12,7 +12,15 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+
+<!-- Mobile theme color: HKUST navy in light mode, dark grey in dark mode -->
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#003C71"/>
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1c1c1e"/>
+
+<!-- iOS "Add to Home Screen" support -->
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="Yunxiang Mo"/>
 
 <!-- Custom typography + publication-card styles -->
 <style>

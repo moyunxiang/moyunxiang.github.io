@@ -7,6 +7,10 @@ permalink: /images/manifest.json
 	"short_name": {{ site.name | jsonify }},
 	"description": {{ site.description | jsonify }},
 	"start_url": "{{ site.baseurl | default: '/' }}",
+	"display": "standalone",
+	"orientation": "portrait",
+	"theme_color": "#003C71",
+	"background_color": "#ffffff",
 	"lang": {{ site.locale | default: "en" | jsonify }},
 	"icons": [
 		{
