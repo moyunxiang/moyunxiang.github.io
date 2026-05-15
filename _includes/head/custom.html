@@ -71,6 +71,16 @@
   html[data-theme="dark"] .page__content h1 {
     border-bottom-color: #5a5a5a;  /* tone down section divider in dark mode */
   }
+
+  /* Paper-box descriptive text — light-mode colors (#444/#555/#666) blend into dark bg.
+     Lift them above the AA contrast floor on #474747 background. */
+  html[data-theme="dark"] .paper-meta    { color: #e4e4e4; }   /* bold tagline / venue meta */
+  html[data-theme="dark"] .paper-authors { color: #cccccc; }   /* author / collaborator line */
+  html[data-theme="dark"] .paper-extra   { color: #b8b8b8; }   /* italic description */
+  /* Italic / em nested inside should inherit parent's lighter color (not the navy link color). */
+  html[data-theme="dark"] .paper-extra em,
+  html[data-theme="dark"] .paper-meta em,
+  html[data-theme="dark"] .paper-authors em { color: inherit; }
   /* Re-enable clicking on the "selected" (current page) nav item — theme disables it by default */
   .masthead__menu-item.selected a {
     pointer-events: auto !important;
