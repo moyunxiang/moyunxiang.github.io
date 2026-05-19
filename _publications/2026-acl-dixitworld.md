@@ -12,7 +12,7 @@ citation: 'Yunxiang Mo, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai 
 
 **Authors:** <u>Yunxiang Mo</u>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.
 
-**Venue:** **ACL 2026 — Main Conference**. AC meta-review **9/10 (Strong Accept)**; recommended for oral presentation (decision pending).
+**Venue:** **ACL 2026 — Main Conference**. AC meta-review **9/10 (Strong Accept)**.
 
 *Extended version of the [DixitWorld workshop paper](/publication/2025-emnlp-dixitworld-workshop) at EMNLP 2025 Workshop (Spotlight).*
 
