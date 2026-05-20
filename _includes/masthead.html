@@ -5,19 +5,33 @@
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">Homepage</a>
+          {% if page.url contains '/zh' %}
+            {% assign home_url = '/zh/' %}
+          {% else %}
+            {% assign home_url = '/' %}
+          {% endif %}
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == home_url or page.url == '/index.html' %}selected{% endif %}">
+            <a href="{{ home_url }}">Homepage</a>
           </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
-              {% assign domain = '' %}
+              {% assign href = link.url %}
+            {% elsif link.url contains '/#' %}
+              {% assign href = link.url | remove_first: '/' %}
             {% else %}
-              {% assign domain = base_path %}
+              {% assign href = link.url %}
             {% endif %}
             <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ href }}">{{ link.title }}</a>
             </li>
           {% endfor %}
+          <li id="lang-toggle" class="masthead__menu-item persist">
+            {% if page.url contains '/zh' %}
+              <a href="/" title="Switch to English"><span class="lang-toggle-text">EN</span></a>
+            {% else %}
+              <a href="/zh/" title="切换到中文"><span class="lang-toggle-text">中</span></a>
+            {% endif %}
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

@@ -5,13 +5,11 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/webicon-180.png"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/webicon-32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/webicon-192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
 
 <!-- Mobile theme color: HKUST navy in light mode, dark grey in dark mode -->
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#003C71"/>
@@ -194,6 +192,16 @@
   .paper-link-github     { background: #333; }
   .paper-link-website    { background: #1f7a8c; }
 
+  /* Language toggle pill in nav (中 / EN) */
+  #lang-toggle a { font-weight: 600; }
+  .lang-toggle-text {
+    border: 1px solid currentColor;
+    border-radius: 3px;
+    padding: 0 0.4em;
+    font-size: 0.85em;
+    letter-spacing: 0.02em;
+  }
+
   @media (max-width: 600px) {
     .paper-box { flex-direction: column; }
     .paper-box-image { flex: none; max-width: 100%; }
@@ -267,7 +275,8 @@
       if (/^(mailto:|javascript:|tel:)/i.test(href)) return;
 
       var url;
-      try { url = new URL(href, window.location.origin); } catch (err) { return; }
+      // Base is current full URL (not origin) so a relative "#about" resolves to current page.
+      try { url = new URL(href, window.location.href); } catch (err) { return; }
       if (url.origin !== window.location.origin) return;
       // Only intercept when the link's destination page is the page we're on.
       if (window.location.pathname !== url.pathname) return;
