@@ -41,6 +41,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 📚 Publications
 ======
 
+<!-- HIDDEN — under-review entries, re-enable after acceptance is public.
 <div class="paper-box">
   <div class="paper-box-text">
     <p class="paper-title">Robust Decision-Making for LLM Agents in Multi-Turn Reasoning</p>
@@ -56,6 +57,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
     <p class="paper-extra">Scientific hypothesis generation is an open-ended, multi-step task that current LLM benchmarks evaluate poorly: free-text outputs are scored inconsistently, and most setups exclude the literature-grounded reasoning that real scientists rely on. We construct a multi-domain benchmark spanning multiple scientific disciplines, paired with an anchored 5-dimensional rubric that scores coherence, factual consistency, and the presence of boilerplate or hedging language. The benchmark supports two evaluation modes — direct prompting and an agentic mode that allows tool-augmented literature search — making it possible to attribute performance gains to the underlying model versus the surrounding agent scaffold.</p>
   </div>
 </div>
+-->
 
 <div class="paper-box">
   <div class="paper-box-text">
