@@ -29,7 +29,7 @@ author_profile: true
   <img class="exp-logo" src="/images/logos/stanford.jpeg?v=3" alt="Stanford">
   <div class="exp-text">
     <p class="exp-meta"><em>2026.04 – 至今</em> | <strong>研究实习生</strong>,Stanford HAI,美国斯坦福</p>
-    <p class="exp-desc">由 <a href="https://smiles724.github.io/">吴方(Fang Wu)</a> 指导,在 <a href="https://yejinc.github.io/">Yejin Choi</a> 教授与 <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a> 教授的课题组。</p>
+    <p class="exp-desc">由 <a href="https://smiles724.github.io/">吴方(Dr. Fang Wu)</a> 博士指导,在 <a href="https://yejinc.github.io/">Yejin Choi</a> 教授与 <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a> 教授的课题组。</p>
   </div>
 </div>
 

@@ -32,7 +32,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
   <img class="exp-logo" src="/images/logos/stanford.jpeg?v=3" alt="Stanford">
   <div class="exp-text">
     <p class="exp-meta"><em>2026.04 – present</em> | <strong>Research Intern</strong>, Stanford HAI, Stanford, CA, USA</p>
-    <p class="exp-desc">Mentored by <a href="https://smiles724.github.io/">Fang Wu</a> in the groups of Prof. <a href="https://yejinc.github.io/">Yejin Choi</a> and Prof. <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a>.</p>
+    <p class="exp-desc">Mentored by Dr. <a href="https://smiles724.github.io/">Fang Wu</a> in the groups of Prof. <a href="https://yejinc.github.io/">Yejin Choi</a> and Prof. <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a>.</p>
   </div>
 </div>
 
