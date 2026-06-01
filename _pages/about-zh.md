@@ -24,6 +24,9 @@ author_profile: true
 
 💼 经历
 ======
+- *2026.04 – 至今* | **研究实习生**,Stanford HAI,美国斯坦福  
+  由 [Fang Wu](https://smiles724.github.io/)(博士生,导师为 Yejin Choi 教授与 Jure Leskovec 教授)指导。
+
 - *2025.04 – 至今* | **本科研究员**,HKUST [KnowComp](https://github.com/HKUST-KnowComp) 课题组,中国香港特区  
   导师:[宋阳秋(Prof. Yangqiu Song)](https://www.cse.ust.hk/~yqsong/)教授。研究方向:大语言模型与视觉-语言模型的推理与评测,聚焦溯因推理与多模态推理。
 
