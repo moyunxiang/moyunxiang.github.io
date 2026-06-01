@@ -28,7 +28,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 💼 Experience
 ======
 - *2026.04 – present* | **Research Intern**, Stanford HAI, Stanford, CA, USA  
-  Mentored by [Fang Wu](https://smiles724.github.io/) (PhD student in the groups of Prof. Yejin Choi and Prof. Jure Leskovec).
+  Mentored by [Fang Wu](https://smiles724.github.io/) in the groups of Prof. Yejin Choi and Prof. Jure Leskovec.
 
 - *2025.04 – present* | **Undergraduate Researcher**, HKUST [KnowComp Group](https://github.com/HKUST-KnowComp), Hong Kong SAR, China  
   Advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/). Research on reasoning and evaluation of large language models and vision-language models, with focus on abductive and multimodal reasoning.
