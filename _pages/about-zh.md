@@ -37,7 +37,7 @@ author_profile: true
   <img class="exp-logo" src="/images/logos/hkust.png?v=2" alt="HKUST KnowComp">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.04 – 至今</em> | <strong>本科研究员</strong>,HKUST <a href="https://github.com/HKUST-KnowComp">KnowComp</a> 课题组,中国香港特区</p>
-    <p class="exp-desc">导师:<a href="https://www.cse.ust.hk/~yqsong/">宋阳秋(Prof. Yangqiu Song)</a>教授。研究方向:大语言模型与视觉-语言模型的推理与评测,聚焦溯因推理与多模态推理。</p>
+    <p class="exp-desc">导师:<a href="https://www.cse.ust.hk/~yqsong/">宋阳秋(Prof. Yangqiu Song)</a>教授。</p>
   </div>
 </div>
 

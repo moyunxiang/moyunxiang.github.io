@@ -40,7 +40,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
   <img class="exp-logo" src="/images/logos/hkust.png?v=2" alt="HKUST KnowComp">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.04 – present</em> | <strong>Undergraduate Researcher</strong>, HKUST <a href="https://github.com/HKUST-KnowComp">KnowComp Group</a>, Hong Kong SAR, China</p>
-    <p class="exp-desc">Advised by Prof. <a href="https://www.cse.ust.hk/~yqsong/">Yangqiu Song</a>. Research on reasoning and evaluation of large language models and vision-language models, with focus on abductive and multimodal reasoning.</p>
+    <p class="exp-desc">Advised by Prof. <a href="https://www.cse.ust.hk/~yqsong/">Yangqiu Song</a>.</p>
   </div>
 </div>
 
