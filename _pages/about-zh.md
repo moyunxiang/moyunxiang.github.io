@@ -26,7 +26,7 @@ author_profile: true
 ======
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/stanford.png?v=2" alt="Stanford">
+  <img class="exp-logo" src="/images/logos/stanford.jpeg?v=3" alt="Stanford">
   <div class="exp-text">
     <p class="exp-meta"><em>2026.04 – 至今</em> | <strong>研究实习生</strong>,Stanford HAI,美国斯坦福</p>
     <p class="exp-desc">由 <a href="https://smiles724.github.io/">吴方(Fang Wu)</a> 指导,在 <a href="https://yejinc.github.io/">Yejin Choi</a> 教授与 <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a> 教授的课题组。</p>
@@ -37,7 +37,7 @@ author_profile: true
   <img class="exp-logo" src="/images/logos/hkust.png?v=2" alt="HKUST KnowComp">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.04 – 至今</em> | <strong>本科研究员</strong>,HKUST <a href="https://github.com/HKUST-KnowComp">KnowComp</a> 课题组,中国香港特区</p>
-    <p class="exp-desc">导师:<a href="https://www.cse.ust.hk/~yqsong/">宋阳秋(Prof. Yangqiu Song)</a>教授。</p>
+    <p class="exp-desc">由 <a href="https://stonetzheng.github.io/">郑天石(Dr. Tianshi Zheng)</a> 博士指导,导师为 <a href="https://www.cse.ust.hk/~yqsong/">宋阳秋(Prof. Yangqiu Song)</a> 教授。</p>
   </div>
 </div>
 
