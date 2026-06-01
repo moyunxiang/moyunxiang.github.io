@@ -52,7 +52,7 @@ author_profile: true
 <div class="exp-item">
   <img class="exp-logo" src="/images/logos/benchmark.jpg" alt="Benchmark Architectural Design">
   <div class="exp-text">
-    <p class="exp-meta"><em>2025.01</em> | <strong>实习生</strong>,Benchmark Architectural Design Co., Ltd.</p>
+    <p class="exp-meta"><em>2025.01</em> | <strong>实习生</strong>,基准方中(Benchmark Architectural Design Co., Ltd.)</p>
     <p class="exp-desc">使用 MFC 框架开发小程序项目的前端模块;参与 UI 设计、事件处理与系统调试。</p>
   </div>
 </div>
