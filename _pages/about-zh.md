@@ -38,7 +38,6 @@ author_profile: true
 📚 论文发表
 ======
 
-<!-- HIDDEN — under-review entries, re-enable after acceptance is public.
 <div class="paper-box">
   <div class="paper-box-text">
     <p class="paper-title">Robust Decision-Making for LLM Agents in Multi-Turn Reasoning</p>
@@ -54,7 +53,6 @@ author_profile: true
     <p class="paper-extra">科学假设生成是一项开放式的多步任务,但当前 LLM 评测体系对其支持薄弱:自由文本输出难以一致打分,且大多数实验设置忽略了真正科学家所依赖的文献根植的推理。我们构建了一个跨多个学科的多领域基准,并搭配一套锚定式 5 维评分量规(包含连贯性、事实一致性,以及模板化/缓和性语言检测)。该基准支持两种评测模式 —— 直接 prompt 与允许工具增强文献检索的 agentic 模式 —— 从而能将性能提升归因到底层模型本身,还是外围 agent 框架。</p>
   </div>
 </div>
--->
 
 <div class="paper-box">
   <div class="paper-box-text">
