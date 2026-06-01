@@ -26,7 +26,7 @@ author_profile: true
 ======
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/stanford.png" alt="Stanford">
+  <img class="exp-logo" src="/images/logos/stanford.png?v=2" alt="Stanford">
   <div class="exp-text">
     <p class="exp-meta"><em>2026.04 – 至今</em> | <strong>研究实习生</strong>,Stanford HAI,美国斯坦福</p>
     <p class="exp-desc">由 <a href="https://smiles724.github.io/">吴方(Fang Wu)</a> 指导,在 <a href="https://yejinc.github.io/">Yejin Choi</a> 教授与 <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a> 教授的课题组。</p>
@@ -34,7 +34,7 @@ author_profile: true
 </div>
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/hkust.png" alt="HKUST KnowComp">
+  <img class="exp-logo" src="/images/logos/hkust.png?v=2" alt="HKUST KnowComp">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.04 – 至今</em> | <strong>本科研究员</strong>,HKUST <a href="https://github.com/HKUST-KnowComp">KnowComp</a> 课题组,中国香港特区</p>
     <p class="exp-desc">导师:<a href="https://www.cse.ust.hk/~yqsong/">宋阳秋(Prof. Yangqiu Song)</a>教授。研究方向:大语言模型与视觉-语言模型的推理与评测,聚焦溯因推理与多模态推理。</p>
@@ -42,7 +42,7 @@ author_profile: true
 </div>
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/ingenic.jpg" alt="Ingenic Semiconductor">
+  <img class="exp-logo" src="/images/logos/ingenic.jpg?v=2" alt="Ingenic Semiconductor">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.06 – 2025.08</em> | <strong>机器学习工程师实习生</strong>,北京君正集成电路股份有限公司,中国北京</p>
     <p class="exp-desc">面向嵌入式与片上 AI 场景开发和优化机器学习模型;使用 PyTorch 搭建模型训练、评估与推理流水线;在严格的延迟与内存约束下将模型部署至边缘设备。</p>
@@ -50,7 +50,7 @@ author_profile: true
 </div>
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/benchmark.jpg" alt="Benchmark Architectural Design">
+  <img class="exp-logo" src="/images/logos/benchmark.jpg?v=2" alt="Benchmark Architectural Design">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.01</em> | <strong>实习生</strong>,基准方中(Benchmark Architectural Design Co., Ltd.)</p>
     <p class="exp-desc">使用 MFC 框架开发小程序项目的前端模块;参与 UI 设计、事件处理与系统调试。</p>

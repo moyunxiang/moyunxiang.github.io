@@ -29,7 +29,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 ======
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/stanford.png" alt="Stanford">
+  <img class="exp-logo" src="/images/logos/stanford.png?v=2" alt="Stanford">
   <div class="exp-text">
     <p class="exp-meta"><em>2026.04 – present</em> | <strong>Research Intern</strong>, Stanford HAI, Stanford, CA, USA</p>
     <p class="exp-desc">Mentored by <a href="https://smiles724.github.io/">Fang Wu</a> in the groups of Prof. <a href="https://yejinc.github.io/">Yejin Choi</a> and Prof. <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a>.</p>
@@ -37,7 +37,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 </div>
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/hkust.png" alt="HKUST KnowComp">
+  <img class="exp-logo" src="/images/logos/hkust.png?v=2" alt="HKUST KnowComp">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.04 – present</em> | <strong>Undergraduate Researcher</strong>, HKUST <a href="https://github.com/HKUST-KnowComp">KnowComp Group</a>, Hong Kong SAR, China</p>
     <p class="exp-desc">Advised by Prof. <a href="https://www.cse.ust.hk/~yqsong/">Yangqiu Song</a>. Research on reasoning and evaluation of large language models and vision-language models, with focus on abductive and multimodal reasoning.</p>
@@ -45,7 +45,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 </div>
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/ingenic.jpg" alt="Ingenic Semiconductor">
+  <img class="exp-logo" src="/images/logos/ingenic.jpg?v=2" alt="Ingenic Semiconductor">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.06 – 2025.08</em> | <strong>Machine Learning Engineer Intern</strong>, Beijing Ingenic Semiconductor Co., Ltd., Beijing, China</p>
     <p class="exp-desc">Developed and optimized ML models for embedded and on-chip AI scenarios; built training, evaluation, and inference pipelines in PyTorch; deployed models to edge devices under tight latency and memory constraints.</p>
@@ -53,7 +53,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 </div>
 
 <div class="exp-item">
-  <img class="exp-logo" src="/images/logos/benchmark.jpg" alt="Benchmark Architectural Design">
+  <img class="exp-logo" src="/images/logos/benchmark.jpg?v=2" alt="Benchmark Architectural Design">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.01</em> | <strong>Intern</strong>, Benchmark Architectural Design Co., Ltd.</p>
     <p class="exp-desc">Developed front-end modules with the MFC framework for an internal mini-program project; UI design, event handling, and system debugging in a small team.</p>
