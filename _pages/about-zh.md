@@ -6,7 +6,7 @@ author_profile: true
 
 <span class="anchor" id="about"></span>
 
-我是[香港科技大学(HKUST)](https://hkust.edu.hk)的本科生,主修**计算机科学**与**数学**(双主修),并辅以**人工智能延伸主修**。我有幸师从[宋阳秋(Prof. Yangqiu Song)](https://www.cse.ust.hk/~yqsong/)教授与[郑天石(Dr. Tianshi Zheng)](https://stonetzheng.github.io/)博士,在 HKUST [KnowComp](https://github.com/HKUST-KnowComp) 课题组从事研究。
+我是[香港科技大学(HKUST)](https://hkust.edu.hk)的本科生,主修**计算机科学**与**数学**(双主修),并辅以**人工智能延伸主修**(**CGA: 4.1 / 4.3**)。我有幸师从[宋阳秋(Prof. Yangqiu Song)](https://www.cse.ust.hk/~yqsong/)教授与[郑天石(Dr. Tianshi Zheng)](https://stonetzheng.github.io/)博士,在 HKUST [KnowComp](https://github.com/HKUST-KnowComp) 课题组从事研究。
 
 我的研究兴趣集中在**自然语言处理**领域,关注大语言模型与视觉-语言模型的**推理**与**评测**。我尤其关注 *abductive*(溯因)与 *multimodal*(多模态)推理 —— 即模型如何在含糊条件下形成、捍卫并修正假设。
 
@@ -24,17 +24,38 @@ author_profile: true
 
 💼 经历
 ======
-- *2026.04 – 至今* | **研究实习生**,Stanford HAI,美国斯坦福  
-  由 [吴方(Fang Wu)](https://smiles724.github.io/) 指导,在 Yejin Choi 教授与 Jure Leskovec 教授的课题组。
 
-- *2025.04 – 至今* | **本科研究员**,HKUST [KnowComp](https://github.com/HKUST-KnowComp) 课题组,中国香港特区  
-  导师:[宋阳秋(Prof. Yangqiu Song)](https://www.cse.ust.hk/~yqsong/)教授。研究方向:大语言模型与视觉-语言模型的推理与评测,聚焦溯因推理与多模态推理。
+<div class="exp-item">
+  <img class="exp-logo" src="/images/logos/stanford.png" alt="Stanford">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2026.04 – 至今</em> | <strong>研究实习生</strong>,Stanford HAI,美国斯坦福</p>
+    <p class="exp-desc">由 <a href="https://smiles724.github.io/">吴方(Fang Wu)</a> 指导,在 <a href="https://yejinc.github.io/">Yejin Choi</a> 教授与 <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a> 教授的课题组。</p>
+  </div>
+</div>
 
-- *2025.06 – 2025.08* | **机器学习工程师实习生**,北京君正集成电路股份有限公司,中国北京  
-  面向嵌入式与片上 AI 场景开发和优化机器学习模型;使用 PyTorch 搭建模型训练、评估与推理流水线;在严格的延迟与内存约束下将模型部署至边缘设备。
+<div class="exp-item">
+  <img class="exp-logo" src="/images/logos/hkust.png" alt="HKUST KnowComp">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2025.04 – 至今</em> | <strong>本科研究员</strong>,HKUST <a href="https://github.com/HKUST-KnowComp">KnowComp</a> 课题组,中国香港特区</p>
+    <p class="exp-desc">导师:<a href="https://www.cse.ust.hk/~yqsong/">宋阳秋(Prof. Yangqiu Song)</a>教授。研究方向:大语言模型与视觉-语言模型的推理与评测,聚焦溯因推理与多模态推理。</p>
+  </div>
+</div>
 
-- *2025.01* | **实习生**,Benchmark Architectural Design Co., Ltd.  
-  使用 MFC 框架开发小程序项目的前端模块;参与 UI 设计、事件处理与系统调试。
+<div class="exp-item">
+  <img class="exp-logo" src="/images/logos/ingenic.jpg" alt="Ingenic Semiconductor">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2025.06 – 2025.08</em> | <strong>机器学习工程师实习生</strong>,北京君正集成电路股份有限公司,中国北京</p>
+    <p class="exp-desc">面向嵌入式与片上 AI 场景开发和优化机器学习模型;使用 PyTorch 搭建模型训练、评估与推理流水线;在严格的延迟与内存约束下将模型部署至边缘设备。</p>
+  </div>
+</div>
+
+<div class="exp-item">
+  <img class="exp-logo" src="/images/logos/benchmark.jpg" alt="Benchmark Architectural Design">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2025.01</em> | <strong>实习生</strong>,Benchmark Architectural Design Co., Ltd.</p>
+    <p class="exp-desc">使用 MFC 框架开发小程序项目的前端模块;参与 UI 设计、事件处理与系统调试。</p>
+  </div>
+</div>
 
 <span class="anchor" id="publications"></span>
 

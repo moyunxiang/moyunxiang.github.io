@@ -9,7 +9,7 @@ redirect_from:
 
 <span class="anchor" id="about"></span>
 
-I am an undergraduate at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a **double major in Computer Science and Mathematics** with an **Extended Major in Artificial Intelligence**. I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) and Dr. [Tianshi Zheng](https://stonetzheng.github.io/) at the HKUST [KnowComp Group](https://github.com/HKUST-KnowComp).
+I am an undergraduate at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a **double major in Computer Science and Mathematics** with an **Extended Major in Artificial Intelligence** (**CGA: 4.1 / 4.3**). I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) and Dr. [Tianshi Zheng](https://stonetzheng.github.io/) at the HKUST [KnowComp Group](https://github.com/HKUST-KnowComp).
 
 My research interests center on **natural language processing**, with a focus on the **reasoning** and **evaluation** of large language models and vision-language models. I am especially interested in *abductive* and *multimodal* reasoning — how models form, defend, and revise hypotheses under ambiguity.
 
@@ -27,17 +27,38 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
 
 💼 Experience
 ======
-- *2026.04 – present* | **Research Intern**, Stanford HAI, Stanford, CA, USA  
-  Mentored by [Fang Wu](https://smiles724.github.io/) in the groups of Prof. Yejin Choi and Prof. Jure Leskovec.
 
-- *2025.04 – present* | **Undergraduate Researcher**, HKUST [KnowComp Group](https://github.com/HKUST-KnowComp), Hong Kong SAR, China  
-  Advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/). Research on reasoning and evaluation of large language models and vision-language models, with focus on abductive and multimodal reasoning.
+<div class="exp-item">
+  <img class="exp-logo" src="/images/logos/stanford.png" alt="Stanford">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2026.04 – present</em> | <strong>Research Intern</strong>, Stanford HAI, Stanford, CA, USA</p>
+    <p class="exp-desc">Mentored by <a href="https://smiles724.github.io/">Fang Wu</a> in the groups of Prof. <a href="https://yejinc.github.io/">Yejin Choi</a> and Prof. <a href="https://cs.stanford.edu/~jure/">Jure Leskovec</a>.</p>
+  </div>
+</div>
 
-- *2025.06 – 2025.08* | **Machine Learning Engineer Intern**, Beijing Ingenic Semiconductor Co., Ltd., Beijing, China  
-  Developed and optimized ML models for embedded and on-chip AI scenarios; built training, evaluation, and inference pipelines in PyTorch; deployed models to edge devices under tight latency and memory constraints.
+<div class="exp-item">
+  <img class="exp-logo" src="/images/logos/hkust.png" alt="HKUST KnowComp">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2025.04 – present</em> | <strong>Undergraduate Researcher</strong>, HKUST <a href="https://github.com/HKUST-KnowComp">KnowComp Group</a>, Hong Kong SAR, China</p>
+    <p class="exp-desc">Advised by Prof. <a href="https://www.cse.ust.hk/~yqsong/">Yangqiu Song</a>. Research on reasoning and evaluation of large language models and vision-language models, with focus on abductive and multimodal reasoning.</p>
+  </div>
+</div>
 
-- *2025.01* | **Intern**, Benchmark Architectural Design Co., Ltd.  
-  Developed front-end modules with the MFC framework for an internal mini-program project; UI design, event handling, and system debugging in a small team.
+<div class="exp-item">
+  <img class="exp-logo" src="/images/logos/ingenic.jpg" alt="Ingenic Semiconductor">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2025.06 – 2025.08</em> | <strong>Machine Learning Engineer Intern</strong>, Beijing Ingenic Semiconductor Co., Ltd., Beijing, China</p>
+    <p class="exp-desc">Developed and optimized ML models for embedded and on-chip AI scenarios; built training, evaluation, and inference pipelines in PyTorch; deployed models to edge devices under tight latency and memory constraints.</p>
+  </div>
+</div>
+
+<div class="exp-item">
+  <img class="exp-logo" src="/images/logos/benchmark.jpg" alt="Benchmark Architectural Design">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2025.01</em> | <strong>Intern</strong>, Benchmark Architectural Design Co., Ltd.</p>
+    <p class="exp-desc">Developed front-end modules with the MFC framework for an internal mini-program project; UI design, event handling, and system debugging in a small team.</p>
+  </div>
+</div>
 
 <span class="anchor" id="publications"></span>
 

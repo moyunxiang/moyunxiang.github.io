@@ -203,6 +203,39 @@
     letter-spacing: 0.02em;
   }
 
+  /* Experience entries with org logo on the left */
+  .exp-item {
+    display: flex;
+    gap: 1em;
+    margin: 1em 0;
+    padding-bottom: 0.85em;
+    border-bottom: 1px solid #eee;
+    align-items: flex-start;
+  }
+  .exp-item:last-child { border-bottom: none; }
+  .exp-logo {
+    flex: 0 0 70px;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    background: #f7f7f7;
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid #e5e5e5;
+  }
+  .exp-text { flex: 1; min-width: 0; }
+  .exp-meta { margin: 0 0 0.3em 0 !important; line-height: 1.45; }
+  .exp-desc { margin: 0 !important; color: #555; font-size: 0.93em; line-height: 1.55; }
+  html[data-theme="dark"] .exp-logo {
+    background: #f0f0f0;   /* keep light so logos don't disappear */
+    border-color: #5a5a5a;
+  }
+  html[data-theme="dark"] .exp-desc { color: #c0c0c0; }
+  html[data-theme="dark"] .exp-item { border-bottom-color: #5a5a5a; }
+  @media (max-width: 600px) {
+    .exp-logo { flex: 0 0 50px; width: 50px; height: 50px; padding: 4px; }
+  }
+
   @media (max-width: 600px) {
     .paper-box { flex-direction: column; }
     .paper-box-image { flex: none; max-width: 100%; }
