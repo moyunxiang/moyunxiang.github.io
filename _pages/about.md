@@ -40,7 +40,7 @@ I am currently looking for a **research-exchange position in the U.S.** for the 
   <img class="exp-logo" src="/images/logos/hkust.png?v=2" alt="HKUST KnowComp">
   <div class="exp-text">
     <p class="exp-meta"><em>2025.04 – present</em> | <strong>Undergraduate Researcher</strong>, HKUST <a href="https://github.com/HKUST-KnowComp">KnowComp Group</a>, Hong Kong SAR, China</p>
-    <p class="exp-desc">Mentored by Dr. <a href="https://stonetzheng.github.io/">Tianshi Zheng</a>; advised by Prof. <a href="https://www.cse.ust.hk/~yqsong/">Yangqiu Song</a>.</p>
+    <p class="exp-desc">Mentored by Dr. <a href="https://stonetzheng.github.io/">Tianshi Zheng</a> in the group of Prof. <a href="https://www.cse.ust.hk/~yqsong/">Yangqiu Song</a>.</p>
   </div>
 </div>
 
