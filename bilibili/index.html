@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!--
+  Standalone micro-app served at moyunxiang.com/bilibili (NO Jekyll front matter, so
+  Jekyll copies this verbatim and it is not wrapped in the academic site theme).
+  Backend is a same-origin Cloudflare Worker at /bilibili/api/* (see ../cloudflare-worker).
+-->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>B 站视频下载 · moyunxiang.com</title>
+  <style>
+    :root {
+      --navy: #14274a;
+      --accent: #00a1d6; /* bilibili blue */
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #1d2433;
+      --muted: #6b7688;
+      --border: #e3e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e1626;
+        --card: #16203a;
+        --text: #e7ecf5;
+        --muted: #9aa6bd;
+        --border: #26314d;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem 4rem;
+    }
+    .wrap { max-width: 640px; margin: 0 auto; }
+    h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
+    .sub { color: var(--muted); font-size: .9rem; margin: 0 0 1.5rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    label { font-size: .85rem; color: var(--muted); display: block; margin-bottom: .35rem; }
+    input[type="text"], input[type="password"], select {
+      width: 100%;
+      padding: .6rem .7rem;
+      font-size: 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .row { display: flex; gap: .6rem; margin-top: 1rem; flex-wrap: wrap; }
+    button {
+      font-size: 1rem;
+      padding: .6rem 1.1rem;
+      border: none;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      cursor: pointer;
+    }
+    button:disabled { opacity: .55; cursor: default; }
+    a.btn {
+      display: inline-block;
+      font-size: 1rem;
+      padding: .6rem 1.1rem;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+    }
+    .adv-toggle {
+      background: none; color: var(--accent); padding: 0; font-size: .85rem;
+      margin-top: .9rem;
+    }
+    .adv { margin-top: .9rem; display: none; }
+    .adv.open { display: block; }
+    .hint { font-size: .78rem; color: var(--muted); margin-top: .4rem; }
+    .result { display: none; }
+    .result.show { display: block; }
+    .vid-head { display: flex; gap: .9rem; align-items: flex-start; }
+    .vid-head img { width: 120px; border-radius: 8px; flex-shrink: 0; }
+    .vid-title { font-weight: 600; }
+    .selects { display: flex; gap: .6rem; margin-top: 1rem; flex-wrap: wrap; }
+    .selects > div { flex: 1; min-width: 140px; }
+    .err {
+      display: none; color: #c0392b; background: #fdecea; border: 1px solid #f5c6cb;
+      border-radius: 8px; padding: .7rem .9rem; margin-top: 1rem; font-size: .9rem;
+    }
+    .err.show { display: block; }
+    .spin { display: none; color: var(--muted); font-size: .9rem; margin-top: 1rem; }
+    .spin.show { display: block; }
+    .foot { color: var(--muted); font-size: .78rem; margin-top: 2rem; text-align: center; }
+    .foot a { color: var(--accent); }
+    code { background: var(--border); padding: .1rem .35rem; border-radius: 4px; font-size: .85em; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>B 站视频下载</h1>
+    <p class="sub">粘贴一个 B 站视频链接,解析出可直接保存的 mp4 文件。</p>
+
+    <div class="card">
+      <label for="url">视频链接</label>
+      <input id="url" type="text" placeholder="https://b23.tv/xxxx 或 https://www.bilibili.com/video/BVxxxx" autocomplete="off" />
+
+      <button class="adv-toggle" id="advToggle" type="button">▸ 高级 / 高清(可选 Cookie)</button>
+      <div class="adv" id="adv">
+        <label for="sessdata">SESSDATA(可选)</label>
+        <input id="sessdata" type="password" placeholder="登录后才能下到 720p,匿名约 360–480p" autocomplete="off" />
+        <p class="hint">
+          SESSDATA 等同你的账号登录态。它<strong>只在本次解析时转发给 B 站</strong>,
+          本站不存储、不记录。仅在你信任本页面时填写。
+        </p>
+      </div>
+
+      <div class="row">
+        <button id="go" type="button">解析</button>
+      </div>
+
+      <div class="spin" id="spin">解析中…</div>
+      <div class="err" id="err"></div>
+    </div>
+
+    <div class="card result" id="result">
+      <div class="vid-head">
+        <img id="cover" alt="封面" />
+        <div>
+          <div class="vid-title" id="title"></div>
+          <div class="hint" id="meta"></div>
+        </div>
+      </div>
+
+      <div class="selects">
+        <div id="partWrap" style="display:none">
+          <label for="part">分 P</label>
+          <select id="part"></select>
+        </div>
+        <div>
+          <label for="qn">清晰度</label>
+          <select id="qn"></select>
+        </div>
+      </div>
+
+      <div class="row" id="downloads"></div>
+      <p class="hint" id="dlHint"></p>
+    </div>
+
+    <p class="foot">
+      仅供个人学习与离线观看,请尊重 UP 主版权,勿用于商业或二次分发。
+      不支持番剧 / 影视(ss/ep)。 返回 <a href="https://moyunxiang.com">moyunxiang.com</a>
+    </p>
+  </div>
+
+  <script>
+    // Same-origin in production. For local dev against `wrangler dev`, set this to
+    // 'http://localhost:8787'.
+    const API_BASE = '';
+
+    const $ = (id) => document.getElementById(id);
+    const state = { data: null, part: 1, qn: null };
+
+    $('advToggle').addEventListener('click', () => {
+      const adv = $('adv');
+      const open = adv.classList.toggle('open');
+      $('advToggle').textContent = (open ? '▾' : '▸') + ' 高级 / 高清(可选 Cookie)';
+    });
+
+    function showErr(msg) {
+      $('err').textContent = msg;
+      $('err').classList.add('show');
+    }
+    function clearErr() {
+      $('err').classList.remove('show');
+    }
+    function setLoading(on) {
+      $('spin').classList.toggle('show', on);
+      $('go').disabled = on;
+    }
+
+    async function parse(qn) {
+      clearErr();
+      const url = $('url').value.trim();
+      if (!url) { showErr('请先粘贴链接'); return; }
+      setLoading(true);
+      try {
+        const params = new URLSearchParams({ url, p: String(state.part) });
+        const sess = $('sessdata').value.trim();
+        if (sess) params.set('sessdata', sess);
+        if (qn) params.set('qn', String(qn));
+        const res = await fetch(`${API_BASE}/bilibili/api/parse?` + params.toString());
+        const data = await res.json();
+        if (data.error) { showErr(data.error); return; }
+        state.data = data;
+        state.part = data.currentPart || 1;
+        state.qn = data.currentQn;
+        render(data);
+      } catch (e) {
+        showErr('解析失败:' + (e && e.message ? e.message : e));
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    function render(data) {
+      $('result').classList.add('show');
+      $('cover').src = data.cover || '';
+      $('cover').referrerPolicy = 'no-referrer';
+      $('title').textContent = data.title || '';
+      $('meta').textContent = (data.bvid || '') +
+        (data.multiSegment ? ' · 该清晰度被分成多段,需分别下载' : '');
+
+      // Parts
+      const partWrap = $('partWrap');
+      if (data.parts && data.parts.length > 1) {
+        partWrap.style.display = '';
+        const sel = $('part');
+        sel.innerHTML = '';
+        data.parts.forEach((p) => {
+          const o = document.createElement('option');
+          o.value = p.p; o.textContent = `P${p.p} ${p.name}`;
+          if (p.p === state.part) o.selected = true;
+          sel.appendChild(o);
+        });
+      } else {
+        partWrap.style.display = 'none';
+      }
+
+      // Qualities
+      const qsel = $('qn');
+      qsel.innerHTML = '';
+      (data.qualities || []).forEach((q) => {
+        const o = document.createElement('option');
+        o.value = q.qn; o.textContent = q.label;
+        if (q.qn === data.currentQn) o.selected = true;
+        qsel.appendChild(o);
+      });
+
+      // Download buttons
+      const dl = $('downloads');
+      dl.innerHTML = '';
+      (data.downloads || []).forEach((d) => {
+        const a = document.createElement('a');
+        a.className = 'btn';
+        a.href = API_BASE + d.proxiedUrl;
+        a.setAttribute('download', '');
+        a.textContent = '下载 ' + (d.label || 'mp4') +
+          (d.size ? ` (${(d.size / 1048576).toFixed(1)} MB)` : '');
+        dl.appendChild(a);
+      });
+      $('dlHint').textContent =
+        '下载链接有时效,请尽快保存。若 720p 不可用,通常是该视频未登录受限或需要大会员。';
+    }
+
+    $('go').addEventListener('click', () => { state.part = 1; parse(); });
+    $('url').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { state.part = 1; parse(); }
+    });
+    $('part').addEventListener('change', (e) => {
+      state.part = parseInt(e.target.value, 10) || 1;
+      parse(state.qn);
+    });
+    $('qn').addEventListener('change', (e) => {
+      parse(parseInt(e.target.value, 10));
+    });
+  </script>
+</body>
+</html>

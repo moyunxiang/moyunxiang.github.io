@@ -21,7 +21,7 @@ Live at **<https://moyunxiang.com>**. (The original `https://moyunxiang.github.i
 
 ## A note on subpaths
 
-The site is mainly an academic homepage, but I sometimes host small personal utilities under additional subpaths. For example, `moyunxiang.com/bilibili` might point to a tiny tool that takes a Bilibili URL and returns its video. Such tools are independent micro-pages/apps and have nothing to do with the academic content; they live under their own paths and don't affect the main site.
+The site is mainly an academic homepage, but I sometimes host small personal utilities under additional subpaths. For example, **`moyunxiang.com/bilibili`** is a tiny tool that takes a Bilibili video link (incl. `b23.tv` short links) and returns a single-file mp4 you can save directly; an optional `SESSDATA` cookie unlocks higher quality. Its front-end is a standalone static page (`bilibili/index.html`, no Jekyll front matter), and its backend is a same-origin Cloudflare Worker bound to `/bilibili/api/*` (source in `cloudflare-worker/`, excluded from the Jekyll build). Such tools are independent micro-pages/apps and have nothing to do with the academic content; they live under their own paths and don't affect the main site.
 
 If you've arrived at a subpath and aren't sure what it is, head back to **<https://moyunxiang.com>** — that's the canonical landing page.
 

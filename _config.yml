@@ -62,7 +62,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # e.g. "yunxiang-mo"
+  linkedin         : "yunxiang-mo-836113383"
   mastodon         :
   medium           :
   pinterest        :
@@ -174,6 +174,7 @@ exclude:
   - assets/js/vendor
   - CHANGELOG
   - Capfile
+  - cloudflare-worker
   - config
   - Dockerfile
   - Gemfile

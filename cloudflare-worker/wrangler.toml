@@ -1,0 +1,9 @@
+name = "bilibili-dl"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Bind the worker to the same domain so the front-end calls /bilibili/api/* with no CORS.
+# Everything else under /bilibili/* falls through to GitHub Pages (the static page).
+[[routes]]
+pattern = "moyunxiang.com/bilibili/api/*"
+zone_name = "moyunxiang.com"
