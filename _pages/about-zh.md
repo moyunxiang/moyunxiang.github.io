@@ -6,7 +6,7 @@ author_profile: true
 
 <span class="anchor" id="about"></span>
 
-我是[香港科技大学(HKUST)](https://hkust.edu.hk)的本科生,主修**计算机科学**与**数学**(双主修),并辅以**人工智能延伸主修**(**CGA: 4.1 / 4.3**)。我有幸师从[宋阳秋(Prof. Yangqiu Song)](https://www.cse.ust.hk/~yqsong/)教授与[郑天石(Dr. Tianshi Zheng)](https://stonetzheng.github.io/)博士,在 HKUST [KnowComp](https://github.com/HKUST-KnowComp) 课题组从事研究。
+我是[香港科技大学(HKUST)](https://hkust.edu.hk)的**大二本科生**,主修**计算机科学**与**数学**(双主修),并辅以**人工智能延伸主修**(**CGA: 4.1 / 4.3**)。我有幸师从[宋阳秋(Prof. Yangqiu Song)](https://www.cse.ust.hk/~yqsong/)教授与[郑天石(Dr. Tianshi Zheng)](https://stonetzheng.github.io/)博士,在 HKUST [KnowComp](https://github.com/HKUST-KnowComp) 课题组从事研究。
 
 我的研究兴趣集中在**自然语言处理**领域,关注大语言模型与视觉-语言模型的**推理**与**评测**。我尤其关注 *abductive*(溯因)与 *multimodal*(多模态)推理 —— 即模型如何在含糊条件下形成、捍卫并修正假设。
 
