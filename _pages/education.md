@@ -15,7 +15,7 @@ For a one-page printable summary, see my [CV (PDF)](/files/cv.pdf).
 Education
 ======
 * **The Hong Kong University of Science and Technology (HKUST)** — *Sep 2024 – present*
-  * BSc — **Double Major** in Computer Science and Mathematics; **Extended Major** in Artificial Intelligence
+  * BSc — **Triple Major** in Computer Science, Mathematics, and Electronic Engineering; **Extended Major** in Artificial Intelligence
   * **GPA: 4.1 / 4.3**
   * **Honors:**
     * University's Scholarship Scheme for Continuing Undergraduate Students (**Top 1%**), 2024
