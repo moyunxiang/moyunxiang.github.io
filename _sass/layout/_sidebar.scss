@@ -60,6 +60,25 @@
   }
 }
 
+/*
+   Visitor map (MapMyVisitors)
+   The widget sizes itself to its parent's width (w=a), so without a cap it
+   renders full-bleed on narrow screens and buries the bio below the fold.
+   ========================================================================== */
+
+.author__visitors {
+  max-width: 250px;
+  margin: 1.5em auto 0;
+  overflow: hidden;
+  text-align: center;
+
+  #mapmyvisitors-widget,
+  .mapmyvisitors-map-container,
+  .mapmyvisitors-map {
+    max-width: 100% !important;
+  }
+}
+
 .sidebar__right {
   margin-bottom: 1em;
 
