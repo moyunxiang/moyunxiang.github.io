@@ -13,7 +13,7 @@ I am a **second-year undergraduate** at the [Hong Kong University of Science and
 
 My research interests center on the **reasoning** of large language models, with a focus on **reinforcement learning** and **test-time scaling** — how models learn from feedback, and how compute spent at inference time can make their reasoning more reliable.
 
-I am currently looking for **research collaborations or internships** in related directions. If you are working on related topics and have an opening, I would be glad to chat — please feel free to reach out via email.
+I am **actively working on these directions** and always glad to hear from people doing the same — whether that is a **research collaboration**, an **internship**, or simply a conversation about the ideas above. Feel free to reach out via email.
 
 <span class="anchor" id="news"></span>
 
