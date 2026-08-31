@@ -31,7 +31,8 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      /* Keep the nav aligned with #main, which now widens with the window. */
+      max-width: #{"max(" + $x-large + ", min(1600px, 94vw))"};
     }
 
     nav {

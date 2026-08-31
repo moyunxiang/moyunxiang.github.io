@@ -12,7 +12,12 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    /* Grow with the window instead of stopping dead at $x-large, so the
+       sidebar (avatar, links, visitor map) sits nearer the left edge on wide
+       screens. Never narrower than $x-large, never wider than 1600px.
+       Written as an interpolated string so Sass emits the CSS max()/min()
+       verbatim instead of trying to evaluate px against vw. */
+    max-width: #{"max(" + $x-large + ", min(1600px, 94vw))"};
   }
 }
 
