@@ -26,8 +26,8 @@ Education
 Research Experience
 ======
 * **HKUST KnowComp Group**, advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) — *2025 – present*
-  * Research on reasoning and evaluation of large language models and vision-language models.
-  * Focus on abductive and multimodal reasoning.
+  * Research on the reasoning of large language models.
+  * Focus on reinforcement learning and test-time scaling.
 
 Publications
 ======

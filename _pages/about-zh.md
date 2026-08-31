@@ -8,9 +8,9 @@ author_profile: true
 
 我是[香港科技大学(HKUST)](https://hkust.edu.hk)的**大二本科生**,主修**计算机科学**、**数学**与**电子工程**(三主修),并辅以**人工智能延伸主修**(**CGA: 4.1 / 4.3**)。我有幸师从[宋阳秋(Prof. Yangqiu Song)](https://www.cse.ust.hk/~yqsong/)教授与[郑天石(Dr. Tianshi Zheng)](https://stonetzheng.github.io/)博士,在 HKUST [KnowComp](https://github.com/HKUST-KnowComp) 课题组从事研究。
 
-我的研究兴趣集中在**自然语言处理**领域,关注大语言模型与视觉-语言模型的**推理**与**评测**。我尤其关注 *abductive*(溯因)与 *multimodal*(多模态)推理 —— 即模型如何在含糊条件下形成、捍卫并修正假设。
+我的研究兴趣集中在大语言模型的**推理**能力,关注**强化学习(Reinforcement Learning)**与**测试时扩展(Test-Time Scaling)** —— 即模型如何从反馈中学习,以及如何在推理阶段分配算力以获得更可靠的推理表现。
 
-我目前正在寻找下学期**赴美国进行研究交换**的机会。如果您是相关方向的教师并且有招收交换学生的机会,欢迎通过邮件联系我。
+我目前正在寻找相关方向的**研究合作或实习(internship)**机会。如果您在相关方向工作并有合适的机会,欢迎通过邮件联系我。
 
 <span class="anchor" id="news"></span>
 

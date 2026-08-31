@@ -11,9 +11,9 @@ redirect_from:
 
 I am a **second-year undergraduate** at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a **triple major in Computer Science, Mathematics, and Electronic Engineering** with an **Extended Major in Artificial Intelligence** (**CGA: 4.1 / 4.3**). I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) and Dr. [Tianshi Zheng](https://stonetzheng.github.io/) at the HKUST [KnowComp Group](https://github.com/HKUST-KnowComp).
 
-My research interests center on **natural language processing**, with a focus on the **reasoning** and **evaluation** of large language models and vision-language models. I am especially interested in *abductive* and *multimodal* reasoning — how models form, defend, and revise hypotheses under ambiguity.
+My research interests center on the **reasoning** of large language models, with a focus on **reinforcement learning** and **test-time scaling** — how models learn from feedback, and how compute spent at inference time can make their reasoning more reliable.
 
-I am currently looking for a **research-exchange position in the U.S.** for the upcoming term. If you are a faculty member working on related topics and have an opening, I would be glad to chat — please feel free to reach out via email.
+I am currently looking for **research collaborations or internships** in related directions. If you are working on related topics and have an opening, I would be glad to chat — please feel free to reach out via email.
 
 <span class="anchor" id="news"></span>
 
