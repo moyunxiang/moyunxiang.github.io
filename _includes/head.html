@@ -13,4 +13,5 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<!-- ?v=<build time> busts Cloudflare/browser caches on every deploy; the origin sends max-age=14400, so without it a CSS change can take hours to show up. -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
