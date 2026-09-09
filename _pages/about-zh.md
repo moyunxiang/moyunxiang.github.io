@@ -16,7 +16,8 @@ author_profile: true
 
 🔥 最新动态
 ======
-- *2026.03*: 🎉 *DixitWorld* 的扩展版被 **ACL 2026 主会**接收(AC meta-review 9/10)。\[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
+- *2026.09*: 📄 *AgentIdeaBench* 预印本已上线 arXiv。\[[arXiv](https://arxiv.org/abs/2609.07611)\]
+- *2026.03*: 🎉 *DixitWorld* 的扩展版被 **ACL 2026 主会**接收。\[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
 - *2026.01*: 🎉 *ScaleCUA* 被 **ICLR 2026** 接收为 **Oral**。\[[arXiv](https://arxiv.org/abs/2509.15221)\]
 - *2025.10*: 🎉 *DixitWorld* 获得 **EMNLP 2025 Workshop**(BlackBox NLP)**Spotlight**。\[[arXiv](https://arxiv.org/abs/2510.10117)\]
 
@@ -72,9 +73,13 @@ author_profile: true
 
 <div class="paper-box">
   <div class="paper-box-text">
-    <p class="paper-title">A Multi-Domain LLM Benchmark for Scientific Hypothesis Generation</p>
+    <p class="paper-links">
+      <a class="paper-link-arxiv" href="https://arxiv.org/abs/2609.07611" target="_blank" rel="noopener">arXiv</a>
+    </p>
+    <p class="paper-title"><a href="https://arxiv.org/abs/2609.07611">AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era</a></p>
+    <p class="paper-authors"><strong>Yunxiang Mo</strong>, Tianshi Zheng, Yisen Gao, Rui Wang, Newt Nguyen Kim Hue Nam, Kelvin Kiu Wai Tam, Jiaxin Bai, Yangqiu Song, Ginny Wong, Simon See.</p>
     <p class="paper-meta"><span class="paper-meta-highlight under-review">在投</span></p>
-    <p class="paper-extra">科学假设生成是一项开放式的多步任务,但当前 LLM 评测体系对其支持薄弱:自由文本输出难以一致打分,且大多数实验设置忽略了真正科学家所依赖的文献根植的推理。我们构建了一个跨多个学科的多领域基准,并搭配一套锚定式 5 维评分量规(包含连贯性、事实一致性,以及模板化/缓和性语言检测)。该基准支持两种评测模式 —— 直接 prompt 与允许工具增强文献检索的 agentic 模式 —— 从而能将性能提升归因到底层模型本身,还是外围 agent 框架。</p>
+    <p class="paper-extra">面向科学构想(scientific ideation)的多学科基准,在"静态观察"与"主动探索"两种对齐设置下评测模型,覆盖五大学科、40 个密集打分的子领域,并采用文献可验证的评分框架 —— 由 critic 对照检索到的已有工作判定原创性。结果显示主动探索暴露出明显更大的能力上限,其增长速度约为静态观察的两倍,且该收益具有"能力门槛":越强的模型收益越大。</p>
   </div>
 </div>
 
@@ -86,7 +91,7 @@ author_profile: true
     </p>
     <p class="paper-title"><a href="https://openreview.net/forum?id=ikU0NDfKvO">DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay</a></p>
     <p class="paper-authors"><strong>Yunxiang Mo</strong>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.</p>
-    <p class="paper-meta"><strong>ACL 2026</strong> <span class="paper-meta-highlight">AC 9/10</span></p>
+    <p class="paper-meta"><strong>ACL 2026</strong></p>
     <p class="paper-extra">下方 workshop 版本的扩展版 —— 新增 Medium 难度档(252 vs 168 道 QA),72B 参数规模消融,以及 calibration / sensitivity 分析。</p>
   </div>
 </div>

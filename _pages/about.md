@@ -19,7 +19,8 @@ I am **actively looking for research collaborations or internships** in related 
 
 🔥 News
 ======
-- *2026.03*: 🎉 An extended version of *DixitWorld* was accepted to **ACL 2026** (AC meta-review 9/10). \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
+- *2026.09*: 📄 *AgentIdeaBench* is now on arXiv. \[[arXiv](https://arxiv.org/abs/2609.07611)\]
+- *2026.03*: 🎉 An extended version of *DixitWorld* was accepted to **ACL 2026**. \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
 - *2026.01*: 🎉 *ScaleCUA* was accepted to **ICLR 2026** as an **Oral**. \[[arXiv](https://arxiv.org/abs/2509.15221)\]
 - *2025.10*: 🎉 *DixitWorld* received a **Spotlight** at the **EMNLP 2025 Workshop** (BlackBox NLP). \[[arXiv](https://arxiv.org/abs/2510.10117)\]
 
@@ -75,9 +76,13 @@ I am **actively looking for research collaborations or internships** in related 
 
 <div class="paper-box">
   <div class="paper-box-text">
-    <p class="paper-title">A Multi-Domain LLM Benchmark for Scientific Hypothesis Generation</p>
+    <p class="paper-links">
+      <a class="paper-link-arxiv" href="https://arxiv.org/abs/2609.07611" target="_blank" rel="noopener">arXiv</a>
+    </p>
+    <p class="paper-title"><a href="https://arxiv.org/abs/2609.07611">AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era</a></p>
+    <p class="paper-authors"><strong>Yunxiang Mo</strong>, Tianshi Zheng, Yisen Gao, Rui Wang, Newt Nguyen Kim Hue Nam, Kelvin Kiu Wai Tam, Jiaxin Bai, Yangqiu Song, Ginny Wong, Simon See.</p>
     <p class="paper-meta"><span class="paper-meta-highlight under-review">Under review</span></p>
-    <p class="paper-extra">Scientific hypothesis generation is an open-ended, multi-step task that current LLM benchmarks evaluate poorly: free-text outputs are scored inconsistently, and most setups exclude the literature-grounded reasoning that real scientists rely on. We construct a multi-domain benchmark spanning multiple scientific disciplines, paired with an anchored 5-dimensional rubric that scores coherence, factual consistency, and the presence of boilerplate or hedging language. The benchmark supports two evaluation modes — direct prompting and an agentic mode that allows tool-augmented literature search — making it possible to attribute performance gains to the underlying model versus the surrounding agent scaffold.</p>
+    <p class="paper-extra">A multidisciplinary benchmark for scientific ideation that evaluates models under two matched settings — static observation and active exploration — across 40 densely scored subfields in five disciplines, with a literature-verified scoring framework whose critics judge originality against retrieved prior art. Active exploration exposes considerably more capability headroom, scaling about twice as fast as static observation, and that gain is capability-gated: it favours the strongest models.</p>
   </div>
 </div>
 
@@ -89,7 +94,7 @@ I am **actively looking for research collaborations or internships** in related 
     </p>
     <p class="paper-title"><a href="https://openreview.net/forum?id=ikU0NDfKvO">DixitWorld: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay</a></p>
     <p class="paper-authors"><strong>Yunxiang Mo</strong>, Tianshi Zheng, Qing Zong, Jiayu Liu, Baixuan Xu, Yauwai Yim, Chunkit Chan, Jiaxin Bai, Yangqiu Song.</p>
-    <p class="paper-meta"><strong>ACL 2026</strong> <span class="paper-meta-highlight">AC 9/10</span></p>
+    <p class="paper-meta"><strong>ACL 2026</strong></p>
     <p class="paper-extra">Extended version of the workshop paper below — adds a Medium difficulty tier (252 vs. 168 QA items), a 72B-parameter scaling ablation, and calibration/sensitivity analyses.</p>
   </div>
 </div>
