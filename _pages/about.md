@@ -19,7 +19,6 @@ I am **actively looking for research collaborations or internships** in related 
 
 🔥 News
 ======
-- *2026.09*: 📄 *AgentIdeaBench* is now on arXiv. \[[arXiv](https://arxiv.org/abs/2609.07611)\]
 - *2026.03*: 🎉 An extended version of *DixitWorld* was accepted to **ACL 2026**. \[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
 - *2026.01*: 🎉 *ScaleCUA* was accepted to **ICLR 2026** as an **Oral**. \[[arXiv](https://arxiv.org/abs/2509.15221)\]
 - *2025.10*: 🎉 *DixitWorld* received a **Spotlight** at the **EMNLP 2025 Workshop** (BlackBox NLP). \[[arXiv](https://arxiv.org/abs/2510.10117)\]
