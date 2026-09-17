@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # "default", "air", "sunrise", "mint", "dirt", "contrast"
-title                    : "Yunxiang Mo"
+title                    : "Yunxiang (Kevin) Mo"
 title_separator          : "-"
-name                     : &name "Yunxiang Mo"
-description              : &description "Personal academic website of Yunxiang Mo — undergraduate researcher in NLP at HKUST."
+name                     : &name "Yunxiang (Kevin) Mo"
+description              : &description "Personal academic website of Yunxiang (Kevin) Mo — undergraduate researcher in NLP at HKUST."
 url                      : https://moyunxiang.com
 baseurl                  : ""
 repository               : "moyunxiang/moyunxiang.github.io"
@@ -20,7 +20,7 @@ repository               : "moyunxiang/moyunxiang.github.io"
 # Site Author - shown in the left sidebar
 author:
   avatar           : "profile.png"
-  name             : "Yunxiang Mo"
+  name             : "Yunxiang (Kevin) Mo"
   pronouns         :
   bio              : "Undergraduate researcher in NLP at HKUST. Advised by Prof. Yangqiu Song."
   location         : "Hong Kong"

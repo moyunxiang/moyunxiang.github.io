@@ -1,6 +1,6 @@
 ---
 permalink: /zh/
-title: "莫云翔 &nbsp;Yunxiang Mo"
+title: "莫云翔 &nbsp;Yunxiang (Kevin) Mo"
 author_profile: true
 ---
 
