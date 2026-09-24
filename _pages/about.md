@@ -9,7 +9,7 @@ redirect_from:
 
 <span class="anchor" id="about"></span>
 
-I am a **second-year undergraduate** at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a **triple major in Computer Science, Mathematics, and Electronic Engineering** with an **Extended Major in Artificial Intelligence** (**CGA: 4.1 / 4.3**). I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) and Dr. [Tianshi Zheng](https://stonetzheng.github.io/) at the HKUST [KnowComp Group](https://github.com/HKUST-KnowComp).
+I am a **third-year undergraduate** at the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk), pursuing a **triple major in Computer Science, Mathematics, and Electronic Engineering** with an **Extended Major in Artificial Intelligence** (**CGA: 4.1 / 4.3**). I am fortunate to be advised by Prof. [Yangqiu Song](https://www.cse.ust.hk/~yqsong/) and Dr. [Tianshi Zheng](https://stonetzheng.github.io/) at the HKUST [KnowComp Group](https://github.com/HKUST-KnowComp).
 
 My research interests center on the **reasoning** of large language models, with a focus on **reinforcement learning** and **test-time scaling** — how models learn from feedback, and how compute spent at inference time can make their reasoning more reliable.
 
