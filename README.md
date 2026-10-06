@@ -8,7 +8,7 @@ Live at **<https://moyunxiang.com>**. (The original `https://moyunxiang.github.i
 
 - **`/`** — academic homepage (bio, news, experience, publications, projects, honors, teaching). Default language is English; a Chinese version lives at **`/zh/`** and is toggled via the **中 / EN** button in the top nav.
 - **`/cv/`** — long-form CV rendered as a page.
-- **`/files/cv.pdf`**, **`/files/cv-cn.pdf`** — printable CV PDFs (compiled from `MO Yunxiang resume.tex` / `resume CN.tex` in a sibling directory).
+- **`/files/cv.pdf`**, **`/files/cv-cn.pdf`** — printable CV PDFs, built from `../cv/MO Yunxiang resume.tex` / `../cv/MO Yunxiang resume CN.tex` with `../cv/build.sh --site`.
 - **`/publication/...`** — detail pages for individual papers.
 - A few short-link redirects served by Cloudflare Rules:
   - `/cv` → English CV PDF
