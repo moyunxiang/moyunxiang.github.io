@@ -67,9 +67,10 @@ I am **actively looking for research collaborations or internships** in related 
 
 <div class="paper-box">
   <div class="paper-box-text">
-    <p class="paper-title">Robust Decision-Making for LLM Agents in Multi-Turn Reasoning</p>
+    <p class="paper-title">Robust Information-Gain Control for Active Agentic Reasoning under Approximate Beliefs</p>
+    <p class="paper-authors">Fang Wu*, <strong>Yunxiang Mo</strong>*, Aaron Tu, Zhenfei Yin, Shixiang Tang, Xiangru Tang, Tianshi Zheng, Yuheng Yang, Han Luo, Minghao Sun, Kejun Ying, Hejia Geng, Zehong Wang, Peng Xia, Yangqiu Song, Jure Leskovec. <em>*Equal contribution.</em></p>
     <p class="paper-meta"><span class="paper-meta-highlight under-review">Under review</span></p>
-    <p class="paper-extra">LLM agents in multi-turn reasoning frequently collapse into self-locking loops, where approximate belief tracking causes them to revisit the same hypotheses without making epistemic progress. We formalize the structural conditions under which such loops arise and show that the failure mode persists across frontier models even when standard information-seeking objectives are applied. To address it, we propose a training-free, distributionally-robust information-gain objective that explicitly hedges against belief-tracking error and restores exploratory progress without any fine-tuning. The method is evaluated on multi-turn reasoning, planning, and decision-making benchmarks across both open- and closed-source LLM agents.</p>
+    <p class="paper-extra">LLM agents in multi-turn reasoning often stop making epistemic progress when their internal beliefs are only approximate. We formalize this failure as Belief Trap Regions and show that information-gain maximization can induce them, locking agents into self-reinforcing loops. We propose Distributionally Robust Information Gain (DR-IG), a training-free decision-time objective that maximizes worst-case information gain around the current belief, paired with a lightweight verbalized belief proxy. Across five LLM families DR-IG suppresses these traps to 0% and recovers solve rates where IG-max solves nothing; in a real browser DOM it recovers a significant share of the solve rate lost to belief approximation.</p>
   </div>
 </div>
 
