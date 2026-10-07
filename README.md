@@ -7,7 +7,6 @@ Live at **<https://moyunxiang.com>**. (The original `https://moyunxiang.github.i
 ## What you'll find here
 
 - **`/`** — academic homepage (bio, news, experience, publications, projects, honors, teaching). Default language is English; a Chinese version lives at **`/zh/`** and is toggled via the **中 / EN** button in the top nav.
-- **`/blog/`** — blog posts, newest first. Each post is a Markdown file `_posts/YYYY-MM-DD-<slug>.md` (front matter: `title`, `date`, optional `tags`) and is served at `/blog/<slug>/`.
 - **`/cv/`** — long-form CV rendered as a page.
 - **`/files/cv.pdf`**, **`/files/cv-cn.pdf`** — printable CV PDFs, built from `../cv/MO Yunxiang resume.tex` / `../cv/MO Yunxiang resume CN.tex` with `../cv/build.sh --site`.
 - **`/publication/...`** — detail pages for individual papers.

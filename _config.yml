@@ -239,9 +239,8 @@ defaults:
       type: posts
     values:
       layout: single
-      permalink: /blog/:title/
       author_profile: true
-      read_time: false   # counts space-separated words, so it is wrong for Chinese posts
+      read_time: true
       comments: false
       share: true
       related: true

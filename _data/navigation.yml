@@ -1,5 +1,5 @@
 # Top navigation — single-page anchors, mirroring zhaoyangliu12.github.io.
-# "Blog" and "CV" leave the homepage.
+# Only "CV" leaves the page (links to the PDF).
 
 main:
   - title: "About"
@@ -25,9 +25,6 @@ main:
 
   - title: "Teaching"
     url: /#teaching
-
-  - title: "Blog"
-    url: /blog/
 
   - title: "CV"
     url: /files/cv.pdf
