@@ -10,13 +10,15 @@
           {% else %}
             {% assign home_url = '/' %}
           {% endif %}
+          {% assign on_home = false %}
+          {% if page.url == home_url or page.url == '/index.html' %}{% assign on_home = true %}{% endif %}
           <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == home_url or page.url == '/index.html' %}selected{% endif %}">
             <a href="{{ home_url }}">Homepage</a>
           </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign href = link.url %}
-            {% elsif link.url contains '/#' %}
+            {% elsif link.url contains '/#' and on_home %}
               {% assign href = link.url | remove_first: '/' %}
             {% else %}
               {% assign href = link.url %}
