@@ -43,7 +43,7 @@ The following placeholders are scattered through the site — search and replace
 | `[Paper Title — ACL 2026]` etc. | `_publications/*.md`, `_pages/about.md` | real paper titles, authors, links |
 | `[Advisor Name]`, `[Lab Name]` | `_pages/about.md` | your advisor / lab |
 | `yunxiangmo@example.com` | `_config.yml` | your real email |
-| `images/profile.png` | `images/` folder | overwrite with your headshot, same filename |
+| `images/profile.jpg` | `images/` folder | overwrite with your headshot, same filename |
 
 VS Code: `Cmd+Shift+F` to search across the whole folder.
 
@@ -58,7 +58,7 @@ Each section is just a Markdown file. Edit, commit, push — GitHub Pages rebuil
 | `_pages/cv.md` | The `/cv/` page |
 | `_publications/*.md` | One Markdown file per paper. Listed automatically on `/publications/` |
 | `_data/navigation.yml` | The top menu bar |
-| `images/profile.png` | The sidebar headshot |
+| `images/profile.jpg` | The sidebar headshot |
 | `files/cv.pdf` | Drop your CV PDF here; about page links to it |
 
 ## Step 6 (optional) — Preview locally
@@ -99,7 +99,7 @@ Buy a domain (e.g. Cloudflare Registrar ~$10/yr), add a `CNAME` file with `yunxi
 ## What you still need to do
 
 - ⬜ Replace placeholders (Step 4)
-- ⬜ Drop in `images/profile.png` (your headshot)
+- ⬜ Drop in `images/profile.jpg` (your headshot)
 - ⬜ Drop in `files/cv.pdf` (your CV)
 - ⬜ Real paper titles, abstracts, links
 - ⬜ Push to GitHub (Steps 1–3)
