@@ -29,6 +29,14 @@ I am **actively looking for research collaborations or internships** in related 
 ======
 
 <div class="exp-item">
+  <img class="exp-logo" src="/images/logos/uiuc.png?v=1" alt="UIUC">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2026.10 – present</em> | <strong>Research Assistant</strong>, University of Illinois Urbana-Champaign (UIUC), IL, USA</p>
+    <p class="exp-desc">Working with Prof. <a href="https://cs.stanford.edu/~jiaxuan/">Jiaxuan You</a> at <a href="https://ulab-uiuc.github.io/">U Lab</a>.</p>
+  </div>
+</div>
+
+<div class="exp-item">
   <img class="exp-logo" src="/images/logos/stanford.jpeg?v=3" alt="Stanford">
   <div class="exp-text">
     <p class="exp-meta"><em>2026.04 – present</em> | <strong>Research Intern</strong>, Stanford HAI, Stanford, CA, USA</p>

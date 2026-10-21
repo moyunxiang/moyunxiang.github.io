@@ -26,6 +26,14 @@ author_profile: true
 ======
 
 <div class="exp-item">
+  <img class="exp-logo" src="/images/logos/uiuc.png?v=1" alt="UIUC">
+  <div class="exp-text">
+    <p class="exp-meta"><em>2026.10 – 至今</em> | <strong>研究助理(RA)</strong>,伊利诺伊大学厄巴纳-香槟分校(UIUC),美国伊利诺伊州</p>
+    <p class="exp-desc">跟随 <a href="https://cs.stanford.edu/~jiaxuan/">Jiaxuan You</a> 教授(<a href="https://ulab-uiuc.github.io/">U Lab</a>)开展研究。</p>
+  </div>
+</div>
+
+<div class="exp-item">
   <img class="exp-logo" src="/images/logos/stanford.jpeg?v=3" alt="Stanford">
   <div class="exp-text">
     <p class="exp-meta"><em>2026.04 – 至今</em> | <strong>研究实习生</strong>,Stanford HAI,美国斯坦福</p>
