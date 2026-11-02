@@ -160,6 +160,7 @@ I am **actively looking for research collaborations or internships** in related 
 
 🏆 Honors and Awards
 ======
+- **ICPC Asia Wuhan Regional Contest**, 2026. *Silver Medal.*
 - **University's Scholarship Scheme for Continuing Undergraduate Students**, HKUST, 2024. *Top 1% of continuing undergraduates.*
 - **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)**, HKUST. *Honor for top academic performance across all mathematics coursework.*
 - **Dean's List Honor**, HKUST, 2024 & 2025. *GPA above 3.7.*

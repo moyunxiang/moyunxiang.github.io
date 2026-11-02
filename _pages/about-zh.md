@@ -157,6 +157,7 @@ author_profile: true
 
 🏆 荣誉与奖项
 ======
+- **ICPC Asia Wuhan Regional Contest**(ICPC 亚洲区域赛武汉站),2026。*银牌。*
 - **University's Scholarship Scheme for Continuing Undergraduate Students**(在校生奖学金计划),HKUST,2024。*在校生前 1%。*
 - **[S.S. Chern Class](https://www.math.hkust.edu.hk/ug/chern_class/)**(陈省身班),HKUST。*表彰所有数学课程上的顶尖学术表现。*
 - **Dean's List Honor**(院长嘉许),HKUST,2024 & 2025。*GPA 高于 3.7。*
