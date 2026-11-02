@@ -16,6 +16,7 @@ author_profile: true
 
 🔥 最新动态
 ======
+- *2026.11*: 🏅 获得 **ICPC 亚洲区域赛武汉站银牌**。
 - *2026.03*: 🎉 *DixitWorld* 的扩展版被 **ACL 2026 主会**接收。\[[OpenReview](https://openreview.net/forum?id=ikU0NDfKvO)\]
 - *2026.01*: 🎉 *ScaleCUA* 被 **ICLR 2026** 接收为 **Oral**。\[[arXiv](https://arxiv.org/abs/2509.15221)\]
 - *2025.10*: 🎉 *DixitWorld* 获得 **EMNLP 2025 Workshop**(BlackBox NLP)**Spotlight**。\[[arXiv](https://arxiv.org/abs/2510.10117)\]
