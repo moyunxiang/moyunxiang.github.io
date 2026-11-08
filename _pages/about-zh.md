@@ -76,7 +76,7 @@ author_profile: true
 <div class="paper-box">
   <div class="paper-box-text">
     <p class="paper-title">Robust Information-Gain Control for Active Agentic Reasoning under Approximate Beliefs</p>
-    <p class="paper-authors">Fang Wu*, <strong>Yunxiang Mo</strong>*, Aaron Tu, Zhenfei Yin, Shixiang Tang, Xiangru Tang, Tianshi Zheng, Yuheng Yang, Han Luo, Minghao Sun, Kejun Ying, Hejia Geng, Zehong Wang, Peng Xia, Yangqiu Song, Jure Leskovec. <em>*共同第一作者。</em></p>
+    <p class="paper-authors"><strong>Yunxiang Mo</strong>*, Fang Wu*, Aaron Tu, Zhenfei Yin, Shixiang Tang, Xiangru Tang, Tianshi Zheng, Yuheng Yang, Han Luo, Minghao Sun, Kejun Ying, Hejia Geng, Zehong Wang, Peng Xia, Yangqiu Song, Jure Leskovec. <em>*共同第一作者。</em></p>
     <p class="paper-meta"><span class="paper-meta-highlight under-review">在投</span></p>
     <p class="paper-extra">多轮推理中的 LLM agent 在内部信念只是近似时,常常无法继续取得认知上的进展。我们将这一失败形式化为 Belief Trap Regions,并证明信息增益最大化本身就可能诱发这种陷阱,让 agent 陷入自我强化的循环。我们提出 Distributionally Robust Information Gain(DR-IG):一种在当前信念附近最大化最坏情况信息增益的免训练决策目标,并配合轻量的 verbalized belief proxy。在五个 LLM 系列上,DR-IG 将陷阱发生率降至 0%,并在 IG-max 完全无法求解的设置中恢复可观的求解率;在真实浏览器 DOM 环境中,它挽回了因信念近似而损失的求解率中的相当一部分。</p>
   </div>
