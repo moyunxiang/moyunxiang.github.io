@@ -3,9 +3,6 @@ layout: archive
 title: "Education & Experience"
 permalink: /education/
 author_profile: true
-redirect_from:
-  - /cv/
-  - /resume
 ---
 
 {% include base_path %}
